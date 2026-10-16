@@ -1,0 +1,1865 @@
+{
+ "lecture_talks": {
+  "51100901020": "people = 3\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"20% off\")",
+  "51100901028": "people = 3\npoints = 3500\nif people >= 2 or points >= 3000:\n    print(\"10% off\")",
+  "51100902018": "people = 2\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"Get an eco bag\")",
+  "51100902024": "age = 15\nif age <= 12 or age >= 65:\n    print(\"30% off\")",
+  "51101001015": "people = 2\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"20% off\")",
+  "51101001020": "people = 2\npoints = 3500\nif people >= 2 and points >= 3000:\n    print(\"20% off\")\nelif people >= 2 or points >= 3000:\n    print(\"10% off\")",
+  "51101002025": "",
+  "51101003006": "for count in range(10):\n    print(\"warm\")",
+  "51101003024": "for count in range(10):\n    print(\"deer\")",
+  "51101003030": "for count in range(10):\n    print(\"campus\")",
+  "51101004011": "for i in range(3):\n  print(\"She sells seashells\")",
+  "51101004017": "for i in range(1, 3):\n  print(\"She sells seashells\")",
+  "51101004029": "for i in range(100):\n  print(\"She sells seashells\")",
+  "51101101008": "age = 12\npeople = 2\nif age <= 12 and people >= 1:\n    print(\"Child fare\")",
+  "51101101013": "age = 15\nif age <= 12 or age >= 65:\n    print(\"30% off\")",
+  "51101101022": "for i in range(10):\n    print(\"warm\")",
+  "51101101025": "for i in range(5):\n    print(\"warm\")",
+  "51101201029": "",
+  "51101202013": "print(round(10.6))",
+  "51101202017": "print(round(9.7))",
+  "51101202027": "print(max(10, 25, 18))",
+  "51101202038": "print(min(5, 10, 50))",
+  "51101203020": "",
+  "51101203030": "import math\nprint(round(9.5))\nprint(math.floor(9.5))",
+  "51101203033": "import math\nprint(math.floor(7.8))",
+  "51101204008": "",
+  "51101204014": "import random\nprint(random.random())",
+  "51101204027": "import random\n\nif random.random() >= 0.5:\n    print(\"A bright day\")\nelse:\n    print(\"Take it slow and do your best\")",
+  "51101205008": "import random\nprint(random.random())",
+  "51101205017": "import random\nprint(random.random() * 10)",
+  "51101205022": "import random\nimport math\nprint(math.floor(random.random() * 10))",
+  "51101301056": "",
+  "51101302024": "def split3(total):\n    print(\"process\")",
+  "51101302034": "def split3(total):\n    result = total / 3",
+  "51101302041": "def split3(total):\n    result = total / 3\n    return result",
+  "51101302048": "def split3(total):\n    result = total / 3\n    return result\n\nprint(split3(5000))",
+  "51101303011": "def split7(total):\n    print(\"process\")",
+  "51101303020": "def split7(total):\n    result = total / 7",
+  "51101303024": "def split7(total):\n    result = total / 7\n    return result",
+  "51101303030": "def split7(total):\n    result = total / 7\n    return result\n\nprint(split7(14000))",
+  "51101303039": "def calc7(num):\n    print(\"process\")",
+  "51101303047": "def calc7(num):\n    result = num * 7",
+  "51101303050": "def calc7(num):\n    result = num * 7\n    return result",
+  "51101303053": "def calc7(num):\n    result = num * 7\n    return result\n\nprint(calc7(10))",
+  "51101401012": "print(round(5.7))",
+  "51101401018": "import math\nprint(round(5.5))\nprint(math.floor(5.5))",
+  "51101401022": "print(max(10, 20))\nprint(min(10, 20))",
+  "51101401024": "import random\nprint(random.random())",
+  "51101401035": "def split4(total):\n    result = total / 4\n    return result\n\nprint(split4(1200))",
+  "51101501042": "",
+  "51101501045": "",
+  "51101502009": "temp_list = [35, 34, 26, 29, 31, 33, 35]",
+  "51101502017": "temp_list = [35, 34, 26, 29, 31, 33, 35]\nprint(temp_list[2])",
+  "51101502020": "temp_list = [35, 34, 26, 29, 31, 33, 35]\nprint(temp_list[5])",
+  "51101502023": "temp_list = [35, 34, 26, 29, 31, 33, 35]\nprint(temp_list)",
+  "51101503010": "temp_list = [35, 34, 26, 29, 31, 33, 35]",
+  "51101503032": "temp_list = [35, 34, 26, 29, 31, 33, 35]\ntotal = 0\nfor i in range(7):\n    total = total + temp_list[i]\nprint(total)",
+  "51101503037": "temp_list = [35, 34, 26, 29, 31, 33, 35]\ntotal = 0\nfor i in range(7):\n    total = total + temp_list[i]\nprint(total / 7)",
+  "51101504009": "read_list = [25, 40, 15, 50, 30, 35]",
+  "51101504019": "read_list = [25, 40, 15, 50, 30, 35]\ntotal = 0\nfor i in range(6):\n    total = total + read_list[i]\nprint(total)",
+  "51101504021": "read_list = [25, 40, 15, 50, 30, 35]\ntotal = 0\nfor i in range(6):\n    total = total + read_list[i]\nprint(total / 6)",
+  "51101504026": "page_list = [44, 70, 26, 88, 53, 61]\ntotal = 0\nfor i in range(6):\n    total = total + page_list[i]\nprint(total / 6)",
+  "51101505004": "temp_list = [35, 34, 26, 29, 31, 33, 35, 32, 27, 30]",
+  "51101505010": "temp_list = [35, 34, 26, 29, 31, 33, 35, 32, 27, 30]\nprint(len(temp_list))",
+  "51101505027": "temp_list = [35, 34, 26, 29, 31, 33, 35, 32, 27, 30, 26, 30, 31, 28]\nprint(len(temp_list))",
+  "51101601024": "import array\n\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(warn_array[0])\nprint(warn_array[5])",
+  "51101601027": "import array\n\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(len(warn_array))",
+  "51101601031": "import array\n\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(warn_array[0])",
+  "51101602010": "import array\n\nday_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])",
+  "51101602015": "import array\n\nday_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])\nprint(day_array[0])\nprint(day_array[6])",
+  "51101602018": "import array\n\nday_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])\nprint(len(day_array))",
+  "51101701011": "temp_list = [35, 34, 26, 29, 31, 33, 35]\nprint(temp_list[2])",
+  "51101701016": "temp_list = [35, 34, 26, 29, 31, 33, 35]\nprint(len(temp_list))",
+  "51101701021": "temp_list = [35, 34, 26, 29, 31, 33, 35]\ntotal = 0\nfor i in range(7):\n    total = total + temp_list[i]\nprint(total / 7)",
+  "51101701029": "import array\n\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(warn_array[0])\nprint(warn_array[5])",
+  "51101701032": "import array\n\nwarn_array = array.array('i', [2, 2, 1, 1, 2, 1, 2])\nprint(len(warn_array))",
+  "51101701037": "import array\n\nday_array = array.array('i', [2, 3, 4, 5, 6, 7, 1])\nprint(day_array[0])\nprint(day_array[6])",
+  "51101801030": "is_sunny = True\n\nif is_sunny:\n    print(\"Practice on the field\")\nelse:\n    print(\"Practice in the gym\")",
+  "51101802006": "",
+  "51101802021": "is_sunny = \"True\"\n\nprint(type(is_sunny))",
+  "51101802024": "is_sunny = True\n\nprint(type(is_sunny))",
+  "51101803011": "stamp_count = 8\nhelp_count = 5\n\nif stamp_count >= 8 and help_count >= 4:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
+  "51101803048": "",
+  "51101803052": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\n\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False",
+  "51101803053": "stamp_count = 8\nhelp_count = 5\nquiz_score = 60\nresult = None\n\nif stamp_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False\n\nif result and quiz_score >= 75:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
+  "51101901013": "import math\nprint(math.floor(87.5 / 12.3))",
+  "51101901022": "import math\nprint(math.floor(7.6))\nprint(round(7.6))",
+  "51101901025": "import math\nprint(math.floor(64.8 / 9.5))",
+  "51101902016": "import random\nprint(random.random())",
+  "51101902022": "import random\nprint(random.random() * 10)",
+  "51101902027": "import math\nimport random\nprint(math.floor(random.random() * 10))",
+  "51101902033": "import random\n\nif random.random() >= 0.5:\n    print(\"You win!\")\nelse:\n    print(\"You lose...\")",
+  "51102001009": "is_ready = True\n\nif is_ready:\n    print(\"Ready to go!\")\nelse:\n    print(\"Not ready yet...\")",
+  "51102001014": "is_ready = True\n\nprint(type(is_ready))",
+  "51102001022": "ticket_count = 8\nhelp_count = 5\nresult = False\n\nif ticket_count >= 8 and help_count >= 4:\n    result = True\nelse:\n    result = False\n\nif result:\n    print(\"Booth approved!\")\nelse:\n    print(\"Maybe next year!\")",
+  "51102001029": "import math\nprint(math.floor(64.8 / 9.5))",
+  "51102001036": "import math\nimport random\nprint(math.floor(random.random() * 10))",
+  "51102101011": "score = 100\nif score == 100:\n    print(\"Won the Golden Frying Pan\")",
+  "51102101021": "score = 85\nif score == 100:\n    print(\"Won the Golden Frying Pan\")\nelif score >= 85:\n    print(\"Dessert Party\")\nelse:\n    print(\"Dishwashing Duty\")",
+  "51102102010": "score = 100\nif score >= 85:\n    print(\"Pass\")",
+  "51102102012": "score = 30\nif score <= 45:\n    print(\"Retest\")",
+  "51102102021": "number_of_people = 3\ntotal = 4500\nif number_of_people >= 3 and total == 4500:\n    print(\"25% discount\")",
+  "51102102024": "number_of_people = 4\ntotal = 13500\nif number_of_people >= 10 or total >= 10000:\n    print(\"Bonus Gift\")",
+  "51102103016": "",
+  "51102103021": "",
+  "51102103036": "",
+  "51102104030": "",
+  "51102104033": "",
+  "51102104038": "",
+  "51102105009": "temperature = 180\nif temperature >= 170:\n    print(\"Heating temperature OK\")",
+  "51102105012": "temperature = 180\ncook_time = 12\nif temperature >= 170:\n    print(\"Heating temperature OK\")\n    if cook_time >= 12:\n        print(\"Cooking successful\")",
+  "51102105020": "sauce_temp = 98\nif sauce_temp >= 95:\n    print(\"Sauce is ready\")",
+  "51102105024": "sauce_temp = 98\nthickness = 2\nif sauce_temp >= 95:\n    print(\"Sauce is ready\")\n    if thickness >= 3:\n        print(\"Thickness is enough\")",
+  "51102106008": "",
+  "51102106019": "for i in range(4):\n    print(\"Fight\")",
+  "51102106023": "for i in range(4):\n    print(\"I can do it\")",
+  "51102106027": "for i in range(7):\n    print(\"Yay\")",
+  "51102107011": "",
+  "51102107023": "",
+  "51102108011": "",
+  "51102108033": "for i in range(5):\n    print(\"vocal warm-up\")",
+  "51102108036": "for i in range(5):\n    print(\"vocal warm-up\")\n    if i == 2:\n        print(\"tongue twister practice\")",
+  "51102109009": "for i in range(5):\n    print(\"sandwich\")",
+  "51102109011": "for i in range(5):\n    print(\"sandwich\")\n    if i == 1:\n        print(\"water bottle\")",
+  "51102109018": "for i in range(5):\n    print(\"cookie\")\n    if i == 3:\n        print(\"chocolate\")",
+  "51102110014": "point = 0\npoint += 3\nprint(point)",
+  "51102110016": "num = 0\nnum += 5\nprint(num)",
+  "51102111024": "def divide6(total):\n    per = total / 6\n    return per",
+  "51102111031": "def divide6(total):\n    per = total / 6\n    return per\nprint(divide6(78))",
+  "51102111047": "def split5(total):\n    per = total / 5\n    return per\nprint(split5(7500))",
+  "51102112019": "",
+  "51102113006": "",
+  "51102113034": "def goodEvening():\n    greeting = \"Good evening!\"\n    return greeting\nprint(goodEvening())",
+  "51102114020": "def sum(num1, num2):\n    result = num1 + num2\n    return result",
+  "51102114022": "def sum(num1, num2):\n    result = num1 + num2\n    return result\nprint(sum(50, 100))",
+  "51102115007": "score = 82\nif score == 100:\n    print(\"Perfect score\")\nelif score >= 75:\n    print(\"Pass\")\nelse:\n    print(\"Retake exam\")",
+  "51102115027": "score = 90\nrank = 1\nif score >= 85:\n    print(\"Certification passed\")\n    if rank == 1:\n        print(\"Trophy earned\")",
+  "51102115036": "for i in range(3):\n    print(\"Stretch\")\n    if i == 1:\n        print(\"Running\")",
+  "51102115043": "def goodMorning():\n    greeting = \"Good morning\"\n    return greeting\nprint(goodMorning())",
+  "51102115049": "def calc(num1, num2):\n    result = num1 * num2\n    return result\nprint(calc(55, 75))",
+  "51102201024": "",
+  "51102201028": "",
+  "51102201039": "",
+  "51102202004": "num = 1\nfor i in range(4):\n    num = num * 3\nprint(num)",
+  "51102202010": "num = 1\nfor i in range(3):\n    num = num * 5\nprint(num)",
+  "51102202022": "num = 1\nfor i in range(1, 4):\n    num = num * 5\nprint(num)",
+  "51102203005": "",
+  "51102203015": "num = 1\nfor i in range(2, 7):\n    num = num * i\nprint(num)",
+  "51102203018": "num = 1\nfor i in range(2, 10):\n    num = num * i\nprint(num)",
+  "51102204020": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7]",
+  "51102204033": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7]\nprint(body_temp_list[2])",
+  "51102204036": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7]\nprint(body_temp_list[3])",
+  "51102205012": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2]",
+  "51102205034": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2]\ntotal = 0\nfor i in range(7):\n    total = total + body_temp_list[i]\nprint(total / 7)",
+  "51102206013": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\nprint(len(body_temp_list))",
+  "51102206019": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\ntotal = 0\nfor i in range(14):\n    total = total + body_temp_list[i]\nprint(total / 14)",
+  "51102206032": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\ntotal = 0\nfor i in range(len(body_temp_list)):\n    total = total + body_temp_list[i]\nprint(total / len(body_temp_list))",
+  "51102207021": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 37.1, 36.5, 36.9, 36.4, 36.7, 37.2]\nfor i in range(len(body_temp_list)):\n    if body_temp_list[i] >= 37.0:\n        print(\"Caution!\")",
+  "51102207024": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 37.1, 36.5, 36.9, 36.4, 36.7, 37.2]\nfor i in range(len(body_temp_list)):\n    if body_temp_list[i] >= 37.5:\n        print(\"Take a rest!\")",
+  "51102208008": "num = 1\nfor i in range(4):\n    num = num * 3\nprint(num)",
+  "51102208013": "num = 1\nfor i in range(2, 7):\n    num = num * i\nprint(num)",
+  "51102208016": "num = 1\nfor i in range(2, 10):\n    num = num * i\nprint(num)",
+  "51102208024": "body_temp_list = [36.1, 36.4, 36.6, 36.8, 36.7]\nprint(body_temp_list[3])",
+  "51102208035": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 36.6, 36.5, 36.9, 36.4, 36.7, 37.0]\ntotal = 0\nfor i in range(len(body_temp_list)):\n    total = total + body_temp_list[i]\nprint(total / len(body_temp_list))",
+  "51102208043": "body_temp_list = [36.1, 36.4, 36.6, 36.5, 36.7, 36.0, 36.2, 36.8, 37.1, 36.5, 36.9, 36.4, 36.7, 37.2]\nfor i in range(len(body_temp_list)):\n    if body_temp_list[i] >= 37.0:\n        print(\"Watch out!\")",
+  "51102301014": "low_temp_list = [1, 3, 2, -1, 0, 2, 1]\nprint(low_temp_list[4])",
+  "51102301026": "low_temp_list = [1, 3, 2, -1, 0, 2, 1]\nfor i in range(7):\n    print(low_temp_list[i])",
+  "51102301036": "low_temp_list = [1, 3, 2, -1, 0, 2, 1]\nfor i in range(len(low_temp_list)):\n    print(low_temp_list[i])",
+  "51102302009": "",
+  "51102302024": "past_temp_list = [7, 10, 12, 9, 11, 8, 15]\nfor temp in past_temp_list:\n    print(temp)",
+  "51102303009": "num_list = [4, 8, 12, 16]\nfor num in num_list:\n    print(num)",
+  "51102303014": "fruit_list = [\"lime\", \"berry\", \"mango\"]\nfor fruit in fruit_list:\n    print(fruit)",
+  "51102401016": "score = 100\nif score == 100:\n    print(\"Got a Gold Badge\")",
+  "51102401019": "score = 88\nif score == 100:\n    print(\"Got a Gold Badge\")\nelif score >= 85:\n    print(\"Reward: Parfait\")",
+  "51102401025": "score = 65\nif score == 100:\n    print(\"Got a Gold Badge\")\nelif score >= 85:\n    print(\"Reward: Parfait\")\nelse:\n    print(\"Review weak topics\")",
+  "51102402008": "bug = 45\nif bug >= 45:\n    print(\"Got a Rare Beetle!\")",
+  "51102402022": "bug = 45\nrare_count = 0\nif bug >= 45:\n    print(\"Got a Rare Beetle!\")\n    rare_count = rare_count + 1\n    print(\"Rare Beetle Counter:\" + str(rare_count))",
+  "51102402026": "bug = 95\nsuper_rare_count = 0\nif bug >= 90:\n    print(\"Super Rare Beetle Get!\")\n    super_rare_count = super_rare_count + 1\n    print(\"Super Rare Beetle Counter:\" + str(super_rare_count))",
+  "51102403012": "weather = \"sunny\"\nif weather == \"sunny\":\n    print(\"Stargazing on the hilltop\")\nelse:\n    print(\"Planetarium DVD at home\")",
+  "51102403018": "weather = \"sunny\"\nshop = \"open\"\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\nelse:\n    print(\"Planetarium DVD at home\")",
+  "51102403031": "weather = \"sunny\"\nshop = \"closed\"\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\n    else:\n        print(\"Buy snacks at the convenience store and go stargazing\")\nelse:\n    print(\"Planetarium DVD at home\")",
+  "51102404006": "weather = \"sunny\"\nif weather == \"sunny\":\n    print(\"Let's go on the field trip\")\nelse:\n    print(\"Field trip canceled\")",
+  "51102404015": "weather = \"sunny\"\nteam = \"Red Team\"\nif weather == \"sunny\":\n    if team == \"Red Team\":\n        print(\"Destination: the farm\")\n    else:\n        print(\"Destination: the science museum\")\nelse:\n    print(\"Field trip canceled\")",
+  "51102404025": "weather = \"sunny\"\nteam = \"Green Team\"\nif weather == \"sunny\":\n    if team == \"Red Team\":\n        print(\"Destination: the farm\")\n    elif team == \"Blue Team\":\n        print(\"Destination: the science museum\")\n    else:\n        print(\"Destination: the candy factory\")\nelse:\n    print(\"Field trip canceled\")",
+  "51102405012": "cold_temp_list = [6, 8, 10, 9, 11, 7, 13]\nfor temp in cold_temp_list:\n    print(temp)",
+  "51102405017": "food_list = [\"tomato\", \"carrot\", \"onion\"]\nfor food in food_list:\n    print(food)",
+  "51102405022": "bug = 50\nrare_count = 0\nif bug >= 45:\n    print(\"Rare beetle caught!\")\n    rare_count = rare_count + 1\n    print(\"rare_beetle_counter:\" + str(rare_count))",
+  "51102405029": "weather = \"sunny\"\nshop = \"open\"\n\nif weather == \"sunny\":\n    if shop == \"open\":\n        print(\"Buy a star chart and go stargazing\")\nelse:\n    print(\"Watch a planetarium DVD at home\")",
+  "51102405034": "weather = \"sunny\"\nteam = \"Team Blue\"\n\nif weather == \"sunny\":\n    if team == \"Team Red\":\n        print(\"Destination is the farm\")\n    elif team == \"Team Blue\":\n        print(\"Destination is the science museum\")\n    else:\n        print(\"Destination is the sweets factory\")\nelse:\n    print(\"Field trip cancelled\")",
+  "51102501024": "def sum(stage1_time, stage2_time):\n    result = stage1_time + stage2_time\n    return result",
+  "51102501028": "def sum(stage1_time, stage2_time):\n    result = stage1_time + stage2_time\n    return result\nprint(sum(37.5, 62.5))",
+  "51102501037": "def sum(stage1_time, stage2_time):\n    time = stage1_time + stage2_time\n    return time\n# Write your program below this line.\nteamA = sum(37.5, 62.5)\nprint(teamA)",
+  "51102502011": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)",
+  "51102502017": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(44, 57, 64)\nprint(teamB)",
+  "51102502020": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(44, 57, 64)\nprint(teamB)\nteamC = sum(42, 63.5, 59)\nprint(teamC)",
+  "51102503004": "",
+  "51102503020": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(44, 57, 64)\nprint(teamB)\nteamC = sum(42, 63.5, 59)\nprint(teamC)\nprint(\"The fastest time is \" + str(min(156.5, 165, 164.5)))",
+  "51102503026": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(44, 57, 64)\nprint(teamB)\nteamC = sum(42, 63.5, 59)\nprint(teamC)\nprint(\"The fastest time is \" + str(min(teamA, teamB, teamC)))",
+  "51102504027": "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\nfor day in record_list:\n    print(day)",
+  "51102504036": "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\ncount = 0\nfor day in record_list:\n    if day == \"present\":\n        count = count + 1\nprint(count)",
+  "51102504047": "record_list = [\"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"absent\", \"present\", \"present\", \"present\", \"absent\", \"present\", \"present\", \"absent\"]\ncount = 0\nfor day in record_list:\n    if day == \"absent\":\n        count = count + 1\nprint(count)",
+  "51102506014": "ticket_type = \"dessert\"\nif ticket_type == \"main dish\":\n    print(\"Check the type of ticket\")\nelse:\n    print(\"Use the cake ticket\")",
+  "51102506022": "ticket_type = \"main dish\"\nmain_ticket = \"fish and chips ticket\"\nif ticket_type == \"main dish\":\n    if main_ticket == \"fish and chips ticket\":\n        print(\"Exchange it with Cody\")\n    else:\n        print(\"Use the steak ticket\")\nelse:\n    print(\"Use the cake ticket\")",
+  "51102507010": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time",
+  "51102507020": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)",
+  "51102507025": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(55, 55, 55)\nprint(teamB)\nteamC = sum(54.5, 55, 55)\nprint(teamC)",
+  "51102507033": "def sum(stage1_time, stage2_time, stage3_time):\n    time = stage1_time + stage2_time + stage3_time\n    return time\nteamA = sum(37.5, 62.5, 56.5)\nprint(teamA)\nteamB = sum(55, 55, 55)\nprint(teamB)\nteamC = sum(54.5, 55, 55)\nprint(teamC)\nprint(\"The fastest time is \" + str(min(teamA, teamB, teamC)))",
+  "51102507042": "record_list = [\"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Absent\"]\nfor day in record_list:\n    print(day)",
+  "51102507046": "record_list = [\"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Present\", \"Absent\", \"Present\", \"Present\", \"Absent\"]\ncount = 0\nfor day in record_list:\n    if day == \"Present\":\n        count = count + 1\nprint(count)",
+  "51102507055": "weather = \"sunny\"\nif weather == \"sunny\":\n    print(\"Play in the park\")\nelse:\n    print(\"Watch a movie\")",
+  "51102507059": "ticket_type = \"main dish\"\nmain_ticket = \"fish and chips ticket\"\nif ticket_type == \"main dish\":\n    if main_ticket == \"fish and chips ticket\":\n        print(\"Exchange it with Cody\")\n    else:\n        print(\"Use the steak ticket\")\nelse:\n    print(\"Use the cake ticket\")",
+  "9002103017": "",
+  "9002103022": "",
+  "9002103037": "",
+  "9002104031": "",
+  "9002104034": "",
+  "9002104039": "",
+  "9002105009": "let score = 90;\nif (score >= 80) {\n  console.log(\"Test Passed\");\n}",
+  "9002105012": "let score = 90;\nlet rank = 1;\nif (score >= 80) {\n  console.log(\"Test Passed\");\n  if (rank == 1) {\n    console.log(\"Trophy Acquired\");\n  }\n}",
+  "9002105021": "let rank = 1;\nif (rank == 1) {\n  console.log(\"Regional Champion\");\n}",
+  "9002105025": "let rank = 1;\nlet fishCaught = 27;\nif (rank == 1) {\n  console.log(\"Regional Champion\");\n  if (fishCaught >= 30) {\n    console.log(\"New Tournament Record\");\n  }\n}",
+  "9002201008": "",
+  "9002201019": "for ( let i = 0; i < 3; i++ ) {\n    console.log(\"She sells seashells by the seashore.\");\n}",
+  "9002201023": "for ( let i = 0; i < 3; i++ ) {\n    console.log(\"Six slippery snails slid slowly seaward.\");\n}",
+  "9002201027": "for ( let i = 0; i < 10; i++ ) {\n    console.log(\"silk\");\n}",
+  "9002202011": "",
+  "9002202023": "",
+  "9002203011": "",
+  "9002203033": "for (let i = 0; i < 5; i++) {\n  console.log(\"sit-up\");\n}",
+  "9002203036": "for (let i = 0; i < 5; i++) {\n  console.log(\"sit-up\");\n  if (i == 2) {\n    console.log(\"running\");\n  }\n}",
+  "9002204009": "for (let i = 0; i < 5; i++) {\n  console.log(\"lunch box\");\n}",
+  "9002204011": "for (let i = 0; i < 5; i++) {\n  console.log(\"lunch box\");\n  if (i == 1) {\n    console.log(\"library book\");\n  }\n}",
+  "9002204018": "for (let i = 0; i < 5; i++) {\n  console.log(\"lunch box\");\n  if (i == 3) {\n    console.log(\"fruit\");\n  }\n}",
+  "9002205014": "let i = 0;\ni += 3;\nconsole.log(i);",
+  "9002205016": "let num = 0;\nnum += 5;\nconsole.log(num);",
+  "9002301024": "function divide6(total) {\n  let per = total / 6;\n  return per;\n}",
+  "9002301031": "function divide6(total) {\n  let per = total / 6;\n  return per;\n}\nconsole.log(divide6(72));",
+  "9002301047": "function split5(total) {\n  let per = total / 5;\n  return per;\n}\nconsole.log(split5(6250));",
+  "9002302019": "",
+  "9002303006": "",
+  "9002303034": "function goodMorning() {\n  let greeting = \"Good morning!\";\n  return greeting;\n}\nconsole.log(goodMorning());",
+  "9002304021": "function sum(num1, num2) {\n  let result = num1 + num2;\n  return result;\n}",
+  "9002304023": "function sum(num1, num2) {\n  let result = num1 + num2;\n  return result;\n}\nconsole.log(sum(50, 100));",
+  "9002401007": "let score = 82;\nif (score == 100) {\n  console.log(\"Perfect Score\");\n} else if (score >= 75) {\n  console.log(\"Pass\");\n} else {\n  console.log(\"Retest\");\n}",
+  "9002401027": "let score = 90;\nlet rank = 1;\nif (score >= 80) {\n  console.log(\"Test Passed\");\n  if (rank == 1) {\n    console.log(\"Trophy Acquired\");\n  }\n}",
+  "9002401036": "for (let i = 0; i < 3; i++) {\n  console.log(\"Apple\");\n  if (i == 1) {\n    console.log(\"Banana\");\n  }\n}",
+  "9002401043": "function goodNight(){\n  let greeting = \"Good night!\";\n  return greeting;\n}\nconsole.log(goodNight());",
+  "9002401049": "function calc(num1, num2) {\n  let result = num1 * num2;\n  return result;\n}\nconsole.log(calc(55, 75));",
+  "9002501025": "",
+  "9002501029": "",
+  "9002501040": "",
+  "9002502004": "let num = 1;\nfor (let i = 0; i < 5; i++) {\n  num = num * 2;\n}\nconsole.log(num);",
+  "9002502010": "let num = 1;\nfor (let i = 0; i < 4; i++) {\n  num = num * 4;\n}\nconsole.log(num);",
+  "9002502022": "let num = 1;\nfor (let i = 1; i <= 4; i++) {\n  num = num * 4;\n}\nconsole.log(num);",
+  "9002503005": "",
+  "9002503015": "let num = 1;\nfor (let i = 1; i <= 5; i++) {\n  num = num * i;\n}\nconsole.log(num);",
+  "9002503018": "let num = 1;\nfor (let i = 1; i <= 10; i++) {\n  num = num * i;\n}\nconsole.log(num);",
+  "9002601020": "let tempList = [36.2, 36.5, 36.3, 36.8, 36.4];",
+  "9002601033": "let tempList = [36.2, 36.5, 36.3, 36.8, 36.4];\nconsole.log(tempList[2]);",
+  "9002601036": "let tempList = [36.2, 36.5, 36.3, 36.8, 36.4];\nconsole.log(tempList[3]);",
+  "9002602012": "let tempList = [36.2, 36.5, 36.3, 36.8, 36.4, 36.9, 37.0];",
+  "9002602034": "let tempList = [36.2, 36.5, 36.3, 36.8, 36.4, 36.9, 37.0];\nlet sum = 0;\nfor(let i = 0; i < 7; i++){\n  sum = sum + tempList[i];\n}\nconsole.log(sum / 7);",
+  "9002603015": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nconsole.log(tempList.length);",
+  "9002603021": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor (let i = 0; i < 14; i++) {\n  sum = sum + tempList[i];\n}\nconsole.log(sum / 14);",
+  "9002603034": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor(let i = 0; i < tempList.length; i++){\n  sum = sum + tempList[i];\n}\nconsole.log(sum / tempList.length);",
+  "9002604021": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nfor (let i = 0; i < tempList.length; i++) {\n  if (tempList[i] >= 37.0) {\n    console.log(\"Be careful!\");\n  }\n}",
+  "9002604024": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nfor (let i = 0; i < tempList.length; i++) {\n  if (tempList[i] >= 37.5) {\n    console.log(\"Avoid going outside!\");\n  }\n}",
+  "9002701008": "let num = 1;\nfor (let i = 0; i < 7; i++) {\n  num = num * 7;\n}\nconsole.log(num);",
+  "9002701013": "let num = 1;\nfor (let i = 1; i <= 5; i++) {\n  num = num * i;\n}\nconsole.log(num);",
+  "9002701016": "let num = 1;\nfor (let i = 1; i <= 15; i++) {\n  num = num * i;\n}\nconsole.log(num);",
+  "9002701024": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4];\nconsole.log(tempList[4]);",
+  "9002701035": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nlet sum = 0;\nfor(let i = 0; i < tempList.length; i++){\n  sum = sum + tempList[i];\n}\nconsole.log(sum / tempList.length);",
+  "9002701043": "let tempList = [36.0, 36.5, 36.3, 36.8, 36.4, 36.9, 36.6, 37.0, 37.1, 36.9, 36.4, 36.6, 36.7, 36.5];\nfor (let i = 0; i < tempList.length; i++) {\n  if (tempList[i] >= 37.0) {\n    console.log(\"Be careful!\");\n  }\n}",
+  "9002801015": "let degreeList = [2, 1, 2, 1, 0, 1, 1];\nconsole.log(degreeList[4]);",
+  "9002801026": "let degreeList = [2, 1, 2, 1, 0, 1, 1];\nfor (let i = 0; i < 7; i++) {\n  console.log(degreeList[i]);\n}",
+  "9002801035": "let degreeList = [2, 1, 2, 1, 0, 1, 1];\nfor (let i = 0; i < degreeList.length; i++) {\n  console.log(degreeList[i]);\n}",
+  "9002802010": "",
+  "9002802023": "let degreeList = [8, 6, 11, 10, 9, 7, 12];\nfor (let degree of degreeList) {\n  console.log(degree);\n}",
+  "9002803009": "let numList = [5, 10, 15, 20];\nfor (let num of numList) {\n  console.log(num);\n}",
+  "9002803014": "let wordList = [\"apple\", \"banana\", \"orange\"];\nfor (let word of wordList) {\n  console.log(word);\n}",
+  "9002901016": "let score = 100;\nif (score == 100) {\n  console.log(\"Reward is steak\");\n}",
+  "9002901019": "let score = 85;\nif (score == 100) {\n  console.log(\"Reward is steak\");\n} else if (score >= 80) {\n  console.log(\"Reward is cake\");\n}",
+  "9002901025": "let score = 62;\nif (score == 100) {\n  console.log(\"Reward is steak\");\n} else if (score >= 80) {\n  console.log(\"Reward is cake\");\n} else {\n  console.log(\"No games for a week\");\n}",
+  "9002902008": "let fish = 50;\nif (fish >= 50) {\n  console.log(\"Big catch!\");\n}",
+  "9002902022": "let fish = 50;\nlet  count = 0;\nif (fish >= 50) {\n  console.log(\"Big catch!\");\n  count =  count + 1;\n  console.log(\"Big fish counter:\" +  count);\n}",
+  "9002902026": "let fish = 120;\nlet  count = 0;\nif (fish >= 100) {\n  console.log(\"Super big catch!\");  \n  count =  count + 1;\n  console.log(\"Super big fish counter:\" +  count);\n}",
+  "9002903012": "let weather = \"sunny\";\nif (weather == \"sunny\") {\n  console.log(\"Picnic in the park\");\n} else {\n  console.log(\"Lunch at home\");\n}",
+  "9002903018": "let weather = \"sunny\";\nlet shop = \"OPEN\";\n\nif (weather == \"sunny\") {\n  if (shop == \"OPEN\") {\n    console.log(\"Let's buy bread and go for a picnic\");\n  }\n} else {\n  console.log(\"Lunch at home\");\n}",
+  "9002903031": "let weather = \"sunny\";\nlet shop = \"CLOSED\";\n\nif (weather == \"sunny\") {\n  if (shop == \"OPEN\") {\n    console.log(\"Let's buy bread and go for a picnic\");\n  } else {\n    console.log(\"Let's buy apple and go for a picnic\");\n  }\n} else {\n  console.log(\"Lunch at home\");\n}",
+  "9002904006": "let weather = \"sunny\";\nif (weather == \"sunny\") {\n  console.log(\"Let's go on the field trip\");\n} else {\n  console.log(\"Field trip canceled\");\n}",
+  "9002904015": "let weather = \"sunny\";\nlet group = \"Group A\";\n\nif (weather == \"sunny\") {\n  if (group == \"Group A\") {\n    console.log(\"Destination is the zoo\");\n  } else {\n    console.log(\"Destination is the museum\");\n  }\n} else {\n  console.log(\"Field trip canceled\");\n}",
+  "9002904025": "let weather = \"sunny\";\nlet group = \"Group C\";\n\nif (weather == \"sunny\") {\n  if (group == \"Group A\") {\n    console.log(\"Destination is the zoo\");\n  } else if (group == \"Group B\") {\n    console.log(\"Destination is the museum\");\n  } else {\n    console.log(\"Destination is the art museum\");\n  }\n} else {\n  console.log(\"Field trip canceled\");\n}",
+  "9003001012": "let degreeList = [8, 6, 11, 10, 9, 7, 12];\nfor (let degree of degreeList) {\n  console.log(degree);\n}",
+  "9003001017": "let wordList = [\"tomato\", \"carrot\", \"onion\"];\nfor (let word of wordList) {\n  console.log(word);\n}",
+  "9003001022": "let fish = 50;\nlet big = 0;\nif (fish >= 50) {\n  console.log(\"Big catch!！\");\n  big = big + 1;\n  console.log(\"Big fish counter:\" + big);\n}",
+  "9003001029": "let weather = \"sunny\";\nlet shop = \"OPEN\";\n\nif (weather == \"sunny\") {\n  if (shop == \"OPEN\") {\n    console.log(\"Buy bread and have a picnic\");\n  }\n} else {\n  console.log(\"Lunch at home\");\n}",
+  "9003001034": "let weather = \"sunny\";\nlet group = \"Group B\";\n\nif (weather == \"sunny\") {\n  if (group == \"Group A\") {\n    console.log(\"Destination is the zoo\");\n  } else if (group == \"Group B\") {\n    console.log(\"Destination is the museum\");\n  } else {\n    console.log(\"Destination is the art museum\");\n  }\n} else {\n  console.log(\"Field trip canceled\");\n}",
+  "9003101024": "function sum(freestyle, breaststroke) {\n  let result = freestyle + breaststroke;\n  return result;\n}",
+  "9003101028": "function sum(freestyle, breaststroke) {\n  let result = freestyle + breaststroke;\n  return result;\n}\nconsole.log(sum(39.5, 60.5));",
+  "9003101037": "function sum(freestyle, breaststroke) {\n  let time = freestyle + breaststroke;\n  return time;\n}\n//Write your program below.\nlet teamRed = sum(39.5, 60.5);\nconsole.log(teamRed);",
+  "9003102011": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);",
+  "9003102017": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);",
+  "9003102020": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);",
+  "9003103004": "",
+  "9003103020": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);\nconsole.log(\"The fastest time is\" + Math.min(158.5, 160, 160.5));",
+  "9003103026": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);\nconsole.log(\"The fastest time is\" + Math.min(teamRed, teamBlue, teamGreen));",
+  "9003201026": "let volunteerList = [\"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\"];\nfor (let day of volunteerList) {\n  console.log(day);\n}",
+  "9003201035": "let volunteerList = [\"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\"];\nlet count = 0;\nfor (let day of volunteerList) {\n  if (day == \"Yes\") {\n    count++;\n  }\n}\nconsole.log(count);",
+  "9003201045": "let volunteerList = [\"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\"];\nlet count = 0;\nfor (let day of volunteerList) {\n  if (day == \"No\") {\n    count++;\n  }\n}\nconsole.log(count);",
+  "9003203014": "let sandwichType = \"strawberry jam\";\nif (sandwichType == \"savory\") {\n  console.log(\"Check what's inside the sandwich\");\n} else {\n  console.log(\"Eat strawberry jam sandwich\");\n}",
+  "9003203022": "let sandwichType = \"savory\";\nlet savory = \"tuna\";\nif (sandwichType == \"savory\") {\n  if (savory == \"tuna\") {\n    console.log(\"Exchange with Cody\");\n  } else {\n    console.log(\"Eat ham sandwich\");\n  }\n} else {\n  console.log(\"Eat strawberry jam sandwich\");\n}",
+  "9003301010": "function sum(freestyle, breaststroke, backstroke) {\n  let result = freestyle + breaststroke + backstroke;\n  return result;\n}",
+  "9003301020": "function sum(freestyle, breaststroke,backstroke) {\n  let result = freestyle + breaststroke +backstroke;\n  return result;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);",
+  "9003301025": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);",
+  "9003301033": "function sum(freestyle, breaststroke, backstroke) {\n  let time = freestyle + breaststroke + backstroke;\n  return time;\n}\nlet teamRed = sum(39.5, 60.5, 58.5);\nconsole.log(teamRed);\nlet teamBlue = sum(40, 62, 58);\nconsole.log(teamBlue);\nlet teamGreen = sum(41, 59.5, 60);\nconsole.log(teamGreen);\nconsole.log(\"The fastest time is\" + Math.min(teamRed, teamBlue, teamGreen));",
+  "9003301042": "let volunteerList = [\"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\"];\nfor (let day of volunteerList) {\n  console.log(day);\n}",
+  "9003301046": "let volunteerList = [\"Yes\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"No\", \"Yes\", \"Yes\", \"Yes\", \"No\", \"Yes\", \"No\"];\nlet count = 0;\nfor (let day of volunteerList) {\n  if (day == \"Yes\") {\n    count++;\n  }\n}\nconsole.log(count);",
+  "9003301055": "let weather = \"sunny\";\nif (weather == \"sunny\") {\n  console.log(\"exercise\");\n} else {\n  console.log(\"read a book\");\n}",
+  "9003301059": "let sandwichType = \"savory\";\nlet savory = \"tuna\";\nif (sandwichType == \"savory\") {\n  if (savory == \"tuna\") {\n    console.log(\"Exchange with Cody\");\n  } else {\n    console.log(\"Eat ham sandwich\");\n  }\n} else {\n  console.log(\"Eat strawberry jam sandwich\");\n}",
+  "9003401018": "<h1>Sports Tournament Program</h1>",
+  "9003401025": "<h1>Sports Tournament Program</h1>\n<p>Events</p>",
+  "9003401037": "<h1>Sports Tournament Program</h1>\n<p>Events</p>\n<ul>\n    <li>Frisbee</li>\n    <li>Softball</li>\n    <li>Bread-eating race</li>\n</ul>",
+  "9003401050": "<h1>Sports Tournament Program</h1>\n<p>Events</p>\n<ul>\n  <li>Frisbee</li>\n  <li>Softball</li>\n  <li>Bread-eating race</li>\n</ul>\n<img src=\"sports.png\">",
+  "9003402009": "",
+  "9003402019": "",
+  "9003402023": "",
+  "9003402029": "<p>Let's go to the <span>sea</span></p>\n<p class=\"mountain\">Let's go to the mountains</p>",
+  "9003402039": "<p>Let's go to the <span class=\"sea\">sea</span></p>\n<p>Let's go to the <span class=\"mountain\">mountain</span></p>",
+  "9003402043": "<p>My favorite fruit is <span class=\"apple\">Apple</span></p>\n<p>My favorite animal is <span class=\"giraffe\">Giraffe</span></p>\n<p>Today's shoes are <span class=\"sneaker\">Light blue sneakers</span></p>",
+  "9003403008": "",
+  "9003403014": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">",
+  "9003403020": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\">",
+  "9003403027": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\" value=\"Submit\">",
+  "9003403030": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\" value=\"Submit\">",
+  "9003501004": "",
+  "9003501021": "h1 {\n  color: red;\n}",
+  "9003501027": "h1 {\n  color: red;\n  background-color: pink;\n}",
+  "9003501035": "h1 {\n  color: red;\n  background-color: pink;\n}\nli {\n  font-size: 24px;\n  font-weight: 900;\n}",
+  "9003501041": "<h1>Homework List</h1>\n<ul>\n  <li>History Study</li>\n  <li class=\"blue\">Math Practice</li>\n  <li>Essay</li>  \n</ul>",
+  "9003501044": "h1 {\n  color: red;\n  background-color: pink;\n}\nli {\n  font-size: 24px;\n  font-weight: 900;\n}\n.blue {\n  color: blue;\n}",
+  "9003502010": "",
+  "9003502014": "",
+  "9003502023": ".btn1 {\n  background-color: aqua;\n}",
+  "9003502035": ".btn1 {\n  background-color: aqua;\n}\n.btn2:hover {\n  background-color: yellow;\n}",
+  "9003502039": ".btn1:hover {\n  background-color: lime;\n}\n.btn2:hover {\n  background-color: yellow;\n}",
+  "9003503007": "",
+  "9003503010": "",
+  "9003503020": ".btn1:hover {\n  background-color: lime;\n  transition: 2s;\n}\n.btn2:hover {\n  background-color: yellow;\n}",
+  "9003503022": ".btn1:hover {\n  background-color: lime;\n  transition: 2s;\n}\n.btn2:hover {\n  background-color: yellow;\n  transition: 5s;\n}",
+  "9003504005": "",
+  "9003504008": "",
+  "9003504016": "h1 {\n  border: solid;\n}",
+  "9003504018": "h1 {\n  border: double;\n}",
+  "9003504025": "h1 {\n  border: 10px double;\n}",
+  "9003504029": "h1 {\n  border: 10px double blue;\n}",
+  "9003504032": "h1 {\n  border: 5px solid red;\n}",
+  "9003601008": "<h1>Sports Festival Program</h1>\n<img src=\"sports.png\">",
+  "9003601016": "<p>My favorite fruit is <span class=\"apple\">Apple</span></p>\n<p>My favorite animal is <span class=\"giraffe\">Giraffe</span></p>",
+  "9003601021": "<h1>Event Content Survey</h1>\n<p>Opinion</p>\n<input type=\"text\">\n<input type=\"button\" value=\"Submit\">",
+  "9003601032": "h1 {\n  background-color: pink;\n}\nli {\n  font-weight: bold;\n}\n.red {\n  color: red;\n}",
+  "9003601041": ".btn1:hover {\n  background-color: lime;\n}\n.btn2:hover {\n  background-color: yellow;\n  transition: 2s;\n}",
+  "9003601050": "h1 {\n  border: 10px double red;\n}",
+  "9003701010": "",
+  "9003701017": "let bloodType = \"A\";\n\nif (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n}",
+  "9003701021": "let bloodType = \"B\";\n\nif (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n} else if (bloodType == \"B\") {\n  console.log(\"Today's fortune is excellent!\");\n} else if (bloodType == \"O\") {\n  console.log(\"Today's fortune looks good!\");\n} else if (bloodType == \"AB\") {\n  console.log(\"Today's fortune might not be so good...\");\n}",
+  "9003701024": "let bloodType = \"Unknown\";\n\nif (bloodType == \"A\") {\n  console.log(\"Today's fortune is decent\");\n} else if (bloodType == \"B\") {\n  console.log(\"Today's fortune is excellent!\");\n} else if (bloodType == \"O\") {\n  console.log(\"Today's fortune looks good!\");\n} else if (bloodType == \"AB\") {\n  console.log(\"Today's fortune might not be so good...\");\n} else {\n  console.log(\"Let's find out your blood type!\");\n}",
+  "9003702010": "",
+  "9003702028": "",
+  "9003702038": "let bloodType = \"B\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n  case \"O\":\n    console.log(\"Today's fortune looks good!\");\n    break;\n  case \"AB\":\n    console.log(\"Today's fortune might not be so good...\");\n    break;\n  default:\n    console.log(\"Let's find out your blood type!\");\n    break;\n}",
+  "9003702042": "let bloodType = \"C\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n  case \"O\":\n    console.log(\"Today's fortune looks good!\");\n    break;\n  case \"AB\":\n    console.log(\"Today's fortune might not be so good...\");\n    break;\n  default:\n    console.log(\"Let's find out your blood type!\");\n    break;\n}",
+  "9003703008": "let bloodType = \"A\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n}",
+  "9003703011": "let bloodType = \"B\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n}",
+  "9003703014": "let bloodType = \"AB\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n  case \"O\":\n    console.log(\"Today's fortune looks good!\");\n    break;\n  case \"AB\":\n    console.log(\"Today's fortune might not be so good...\");\n    break;\n}",
+  "9003703016": "let bloodType = \"Unknown\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n  case \"O\":\n    console.log(\"Today's fortune looks good!\");\n    break;\n  case \"AB\":\n    console.log(\"Today's fortune might not be so good...\");\n    break;\n  default:\n    console.log(\"Let's find out your blood type!\");\n    break;\n}",
+  "9003703023": "let day = \"Sunday\";\n\nswitch (day) {\n  case \"Saturday\":\n    console.log(\"Go to lessons\");\n    break;\n  case \"Sunday\":\n    console.log(\"Go shopping\");\n    break;\n  default:\n    console.log(\"Go to school\");\n    break;\n}",
+  "9003801012": "let cookies = 20;\nconsole.log(cookies / 3);",
+  "9003801023": "",
+  "9003801027": "let snacks = 35;\nconsole.log(snacks % 6);",
+  "9003802011": "let members = 40;\nconsole.log(members % 6);",
+  "9003802020": "let snacks = 13;\nif (snacks % 3 > 0) {\n  console.log(\"Rick gets it\");\n}",
+  "9003803015": "",
+  "9003803023": "let donuts = 20;\n\nswitch (donuts % 3) {\n  case 0:\n    console.log(\"Let's clean up the trash neatly\");\n    break;\n}",
+  "9003803028": "let donuts = 20;\n\nswitch (donuts % 3) {\n  case 0:\n    console.log(\"Let's clean up the trash neatly\");\n    break;\n  case 1:\n    console.log(\"Give it to Mom\");\n    break;\n  case 2:\n    console.log(\"Give it to Mom and Dad\");\n    break;\n}",
+  "9003901005": "",
+  "9003901021": "let bloodType = \"Unknown\";\n\nswitch (bloodType) {\n  case \"A\":\n    console.log(\"Today's fortune is decent\");\n    break;\n  case \"B\":\n    console.log(\"Today's fortune is excellent!\");\n    break;\n  default:\n    console.log(\"Let's find out your blood type!\");\n    break;\n}",
+  "9003901030": "let cookies = 20;\nconsole.log(cookies % 3);",
+  "9003901034": "let cookies = 20;\nif (cookies % 3 > 0) {\n  console.log(\"Cody gets it\");\n}",
+  "9003901039": "let orange = 85;\n\nswitch (orange % 3) {\n  case 0:\n    console.log(\"They were divided equally\");\n    break;\n  case 1:\n    console.log(\"Give it to Grandma\");\n    break;\n  case 2:\n    console.log(\"Give it to the neighbors\");\n    break;\n}",
+  "9004001009": "",
+  "9004001017": "let num = 3;\nnum = 5;\nconsole.log(num);",
+  "9004001019": "const num = 3;\nnum = 5;\nconsole.log(num);",
+  "9004002018": "",
+  "9004002023": "const day = 7;\nconsole.log(\"One week is \" + day + \" days\");",
+  "9004002026": "let day = 30;\nconsole.log(\"September has \" + day + \" days\");\nday = 31;\nconsole.log(\"October has \" + day + \" days\");",
+  "9004002029": "const myBirthday = \"September 1st\";\nconsole.log(\"My birthday is \" + myBirthday);",
+  "9004003016": "const weather = \"Cloudy\";\n\nif (weather != \"Rainy\"){\n  console.log(\"Play soccer\");\n}",
+  "9004003024": "const myScore = 90;\n\nif (myScore != 100){\n  console.log(\"Aim for a perfect score!\");\n}",
+  "9004102013": "",
+  "9004102028": "let money = 7500;\nconst comics = 425;\nwhile (money > comics) {\n  money = money - comics;\n  console.log(money);\n}",
+  "9004103012": "",
+  "9004103039": "let money = 520;\nlet count = 0;\nwhile (money < 3800) {\n  count ++;\n  money += 450;\n}\nconsole.log(\"Save for \" + count + \" times\");",
+  "9004201011": "let season = \"spring\";\nconsole.log(\"The current season is \" + season);\nseason = \"summer\";\nconsole.log(\"The next season is \" + season);",
+  "9004201013": "const day = 7;\nconsole.log(\"One week is \" + day + \" days\");",
+  "9004201019": "const weather = \"Cloudy\";\n\nif (weather != \"Rainy\"){\n  console.log(\"Play soccer\");\n}",
+  "9004201031": "let money = 520;\nlet count = 0;\nwhile (money < 3800) {\n  count ++;\n  money += 450;\n}\nconsole.log(\"Save for \" + count + \" times\");",
+  "9004301008": "",
+  "9004301022": "span {\n  color: orange;\n}",
+  "9004301026": "",
+  "9004301048": "span {\n  color: rgb(255, 0, 0);\n}",
+  "9004301056": "span {\n  color: rgb(150, 0, 0);\n}",
+  "9004301062": "span {\n  color: rgb(255, 255, 0);\n}",
+  "9004301067": "span {\n  color: rgb(255, 100, 0);\n}",
+  "9004302010": "span {\n  color: #ff8c00;\n}",
+  "9004302042": "span {\n  color: #a260bf;\n}",
+  "9004303011": "",
+  "9004303026": ".cody:hover  {\n  opacity: 0.3;\n}",
+  "9004303028": ".cody:hover  {\n  opacity: 0;\n}",
+  "9004303034": "h2:hover {\n  opacity: 0.5;\n}\n.cody:hover  {\n  opacity: 0.3;\n}",
+  "9004401027": "<h1>CAFE MENU</h1>\n<ul>\n  <li>About the Cafe</li>\n  <li>Menu</li>\n</ul>",
+  "9004401037": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>",
+  "9004402018": "header {\n  background-color: rgb(255, 255, 180);\n}",
+  "9004403022": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div>\n  <h1>Menu List</h1>\n</div>",
+  "9004403024": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div class=\"main\">\n  <h1>Menu List</h1>\n</div>",
+  "9004403030": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donuts<img src=\"donuts.png\"></li>\n  </ul>\n</div>",
+  "9004403033": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donuts<br><img src=\"donuts.png\"></li>\n  </ul>\n</div>",
+  "9004403040": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donut.png\" alt=\"Donut image\"></li>\n  </ul>\n</div>",
+  "9004403044": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div  class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    <li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>\n  </ul>\n</div>",
+  "9004404014": "<header>\n  <h1>CAFE MENU</h1>\n  <ul>\n    <li>About the Cafe</li>\n    <li>Menu</li>\n  </ul>\n</header>\n\n<div class=\"main\">\n  <h1>Menu List</h1>\n  <ul>\n    <li>Donut<br><img src=\"donuts.png\" alt=\"Donut image\"></li>\n    <li>Cafe latte<br><img src=\"cafe_latte.png\" alt=\"Cafe latte image\"></li>\n  </ul>\n</div>\n\n<footer>\n  <ul>\n    <li>Access</li>\n    <li>Contact</li>\n  </ul>\n</footer>",
+  "9004405013": "header {\n  background-color: rgb(255, 255, 180);\n}\nfooter {\n  background-color: #1e90ff;\n}",
+  "9004405016": "header {\n  background-color: rgb(255, 255, 180);\n}\nfooter {\n  background-color: #1e90ff;\n  color: #ffffff;\n}",
+  "9004501009": "h1 {\n  color: rgb(0, 0, 255);\n}",
+  "9004501013": "h1 {\n  color: #0000ff;\n}",
+  "9004501020": ".cody:hover  {\n  opacity: 0.5;\n}",
+  "9004501030": "<header>\n  <h3>Delicious Pasta Restaurant</h3>\n</header>\n<div>\n  <ul>\n    <li>Peperoncino</li>\n    <li>Carbonara</li>\n  </ul>\n</div>\n<footer>\n  <p>Contact Us</p>\n</footer>",
+  "9004601015": "",
+  "9004601048": "const numList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\n\nfor (const num of numList) {\n  if (num % 7 == 0) {\n    console.log(num);\n  }\n}",
+  "9004602035": "let count = 0;\nfor (let i = 0; i <= 999; i++) {\n  if (i % 7 == 0) {\n    count++;\n  }\n}\nconsole.log(count);",
+  "9004603031": "function checkWinningNum(numList) {\n  for (const num of numList) {\n    if (num % 7 == 0) {\n      console.log(num);\n    }\n  }\n}",
+  "9004603042": "function checkWinningNum(numList) {\n  for (const num of numList) {\n    if (num % 7 == 0) {\n      console.log(num);\n    }\n  }\n}\n\nconst myNumList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\ncheckWinningNum(myNumList);",
+  "9004701023": "",
+  "9004701039": "const target = 1;\n\nswitch (target){\n  case 4:\n    console.log(\"Video game Get\");\n    break;\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n    console.log(\"Candy Assortment Get\");\n    break;\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n    break;\n}",
+  "9004701048": "const target = 1;\n\nswitch (target){\n  case 4:\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n　break;\n}",
+  "9004702017": "const num = 2;\n\nswitch (num) {\n  case 1:\n    console.log(\"Student \" + num + \" is in Group A\");\n    break;\n  case 2:\n    console.log(\"Student \" + num + \" is in Group B\");\n    break;\n  case 3:\n    console.log(\"Student \" + num + \" is in Group C\");\n    break;\n  case 4:\n    console.log(\"Student \" + num + \" is in Group D\");\n    break;\n}",
+  "9004702043": "for (let num = 1; num <= 30; num++) {\n  switch (num % 4) {\n    case 0:\n      console.log(\"Student \" + num + \" is in Group D\");\n      break;\n    case 1:\n      console.log(\"Student \" + num + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + num + \" is in Group B\");\n      break;\n    case 3:\n      console.log(\"Student \" + num + \" is in Group C\");\n      break;\n  }\n}",
+  "9004703015": "",
+  "9004703026": "let seat = \"sold out\";\nif (!(seat == \"available\")) {\n  console.log(\"It's sold out\");\n}",
+  "9004801007": "",
+  "9004801015": "const numList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\n\nfor (const num of numList) {\n  if (num % 7 == 0) {\n    console.log(num);\n  }\n}",
+  "9004801022": "let count = 0;\nfor (let i = 0; i <= 999; i++) {\n  if (i % 7 == 0) {\n    count++;\n  }\n}\nconsole.log(count);",
+  "9004801032": "function checkWinningNum(numList) {\n  for (const num of numList) {\n    if (num % 7 == 0) {\n      console.log(num);\n    }\n  }\n}\n\nconst myNumList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\ncheckWinningNum(myNumList);",
+  "9004801044": "const target = 1;\n\nswitch (target){\n  case 4:\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n　break;\n}",
+  "9004801053": "let seat = \"sold out\";\nif (!(seat == \"available\")) {\n  console.log(\"It's sold out\");\n}",
+  "9004901034": "let distance = 0;",
+  "9004901042": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n}",
+  "9004901046": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n  console.log(\"Walked a total of \" + distance + \"km\");\n}",
+  "9004902050": "",
+  "9004902055": "let money = 20000;\nlet year = 0;\nwhile (money < 50000) {\n  year++;\n  if (year % 2 == 0) {\n    money = money * 1.2;\n  }\n  console.log(money);\n}\nconsole.log(\"It will exceed 50000 codycoins in \" + year + \" years\");",
+  "9004903012": "",
+  "9004903028": "let year = 2026;\nlet tournamentCount = 0;\n\nwhile (year <= 2100) {\n  tournamentCount++;\n  year = year + 4;\n}\nconsole.log(\"There will be \" + tournamentCount + \" World Cup tournaments by the year 2100\");",
+  "9004903050": "let year = 2026;\nlet tournamentCount = 0;\n\nwhile (year <= 2100) {\n  if (year == 2050) {\n    year = year + 4;\n    continue;\n  }\n  tournamentCount++;\n  year = year + 4;\n}\nconsole.log(\"There will be \" + tournamentCount + \" World Cup tournaments by the year 2100\");",
+  "9005001028": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nconst stepCount = distanceList[0] / 0.7;\nconsole.log(stepCount);",
+  "9005001032": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nconst stepCount = distanceList[5] / 0.7;\nconsole.log(stepCount);",
+  "9005002022": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\n\nfor (const distance of distanceList){ \n  const stepCount = distance / 0.7\n  console.log(stepCount);\n}",
+  "9005003026": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\n\nfor (const distance of distanceList){ \n    sum = sum + distance;\n}\nconsole.log(sum);",
+  "9005003039": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\n\nfor (const distance of distanceList){ \n    sum = sum + distance;\n}\nconsole.log( sum / distanceList.length );",
+  "9005101013": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n  console.log(\"Walked a total of \" + distance + \"km\");\n}",
+  "9005101022": "let money = 20000;\nlet year = 0;\nwhile (money < 50000) {\n  year++;\n  if (year % 2 == 0) {\n    money = money * 1.2;\n  }\n  console.log(money);\n}\nconsole.log(\"It will exceed 50000 codycoins in \" + year + \" years\");",
+  "9005101026": "",
+  "9005101029": "",
+  "9005101037": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nconst stepCount = distanceList[5] / 0.7;\nconsole.log(stepCount);",
+  "9005101041": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\n\nfor (const distance of distanceList){ \n  const stepCount = distance / 0.7\n  console.log(stepCount);\n}",
+  "9005201025": "const wordList = [\"dog\", \"dog\", \"dog\", \"dog\", \"dog\", \"dag\", \"dog\", \"dog\"];\n\nconsole.log(wordList.includes(\"dag\"));",
+  "9005201032": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\"];\n\nconsole.log(wordList.includes(\"bell\"));",
+  "9005202014": "",
+  "9005202026": "const wordList = [\"sun\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\"];\n\nconsole.log(wordList.indexOf(\"sun\"));",
+  "9005202030": "const wordList = [\"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n\nconsole.log(wordList.indexOf(\"pen\"));",
+  "9005203014": "",
+  "9005203018": "const nameList = [\"Alex\", \"Emma\", \"Oliver\", \"Sophia\"];\n\nnameList.sort();\nconsole.log(nameList);",
+  "9005203027": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\n\nnameList.sort();\nconsole.log(nameList);",
+  "9005204009": "",
+  "9005204012": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\n\nrankingList.reverse();\nconsole.log(rankingList);",
+  "9005204021": "const rankingList = [\"Mason\", \"Isabella\", \"William\", \"Charlotte\", \"Rick\"];\n\nrankingList.reverse();\nconsole.log(rankingList);",
+  "9005301013": "",
+  "9005301020": "",
+  "9005301030": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\nsandwichIngredients.push(\"mayo\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+  "9005301037": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\nsandwichIngredients.push(\"mayo\", \"bacon\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+  "9005302011": "",
+  "9005302020": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"cupcakes\"];\n\nsandwichIngredients.pop();\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+  "9005302028": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"shrimp\"];\n\nsandwichIngredients.pop();\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+  "9005303013": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n\nburgerIngredients.pop();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+  "9005303019": "",
+  "9005303026": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+  "9005303031": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+  "9005304012": "",
+  "9005304019": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\", \"Rick\"];\n\nrankingList.pop();\nconsole.log(rankingList);",
+  "9005304025": "",
+  "9005304034": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n\nrankingList.unshift(\"Rick\");\nconsole.log(rankingList);",
+  "9005304037": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n\nrankingList.unshift(\"Cody\");\nconsole.log(rankingList);",
+  "9005401007": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"bell\", \"ball\", \"ball\"];\n\nconsole.log(wordList.includes(\"bell\"));",
+  "9005401011": "const wordList = [\"pan\", \"pan\", \"pen\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n\nconsole.log(wordList.indexOf(\"pen\"));",
+  "9005401017": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\n\nnameList.sort();\nconsole.log(nameList);",
+  "9005401023": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\n\nrankingList.reverse();\nconsole.log(rankingList);",
+  "9005401031": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\nsandwichIngredients.push(\"mayo\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+  "9005401034": "const ingredientsList = [\"pasta\", \"tomatoes\", \"garlic\", \"cheese\", \"ice cream\"];\n\ningredientsList.pop();\nconsole.log(\"Pasta Ingredients\");\nconsole.log(ingredientsList);",
+  "9005401040": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+  "9005401044": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\nburgerIngredients.unshift(\"mushroom\");\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+  "51100103011": "print(\"Hello\")",
+  "51100103016": "print(\"Good morning\")",
+  "51100104008": "print(\"Good evening\")",
+  "51100104014": "print(\"Good night\")",
+  "51100104017": "",
+  "51100104022": "print(\"Let's do our best\")",
+  "51100105009": "",
+  "51100105015": "#When executed, characters are print to the console\nprint(\"Hello\")",
+  "51100106004": "#This is a practice memo\nprint(\"Good morning\")\nprint(\"Hello\")\nprint(\"Good evening\")",
+  "51100106008": "print(\"Bread\")\n#print(\"Grapes\")\nprint(\"Yogurt\")",
+  "51100106013": "print(\"Mercury\")\n#print(\"Fish\")\nprint(\"Venus\")\nprint(\"Mars\")",
+  "51100201013": "print(\"Let's calculate\")",
+  "51100201018": "print(\"5+2\")",
+  "51100201021": "print(5+2)",
+  "51100201028": "print(1200+2800)",
+  "51100202004": "print(278+422)",
+  "51100202010": "print(3000-850)",
+  "51100202018": "print(7*6)",
+  "51100202020": "print(48/6)",
+  "51100202024": "print(200000000000*300000000000)",
+  "51100203005": "",
+  "51100203024": "print(\"2 crepes \" + str(350 * 2) + \" codycoins\")",
+  "51100203028": "",
+  "51100204005": "print(\"2 crepes \" + str(350 * 2) + \" codycoins\")\nprint(\"3 crepes \" + str(350 * 3) + \" codycoins\")",
+  "51100204009": "print(\"1 bottle of juice \" + str(200 * 1) + \" codycoins\")",
+  "51100204011": "print(\"2 bottles of juice \" + str(200 * 2) + \" codycoins\")",
+  "51100205028": "",
+  "51100205033": "",
+  "51100205036": "print(type(500))\nprint(type(\"500codycoins\"))",
+  "51100205038": "print(type(\"100\"))",
+  "51100301035": "apples = 0\napples = apples + 3\napples = apples + 7\nprint(apples)",
+  "51100301043": "apples = 0\napples = apples + 3\napples = apples + 7\nprint(\"apples\")",
+  "51100302008": "grapes = 0\ngrapes = grapes + 8\ngrapes = grapes + 12\nprint(grapes)",
+  "51100302015": "strawberries = 0\nstrawberries = strawberries + 5\nstrawberries = strawberries + 8\nprint(strawberries)",
+  "51100302023": "pears = 4\npears = pears + 6\npears = pears + 7\nprint(pears)",
+  "51100401005": "#Write the program on the line below\nprint(\"Good evening\")",
+  "51100401009": "print(\"Cookies and juice cost \" + str(120 + 80) + \" codycoins\")",
+  "51100401017": "apples = 2\napples = apples + 8\nprint(apples)",
+  "51100501040": "",
+  "51100501047": "books = 80\nif books == 100:\n    print(\"Reading Champion Badge!\")",
+  "51100502008": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge!\")",
+  "51100502020": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge!\")",
+  "51100502028": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge!\")",
+  "51100502033": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge!\")",
+  "51100502038": "english = 100\nif english == 100:\n    print(\"Get a reward\")",
+  "51100503018": "",
+  "51100503024": "",
+  "51100601013": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge!\")",
+  "51100601024": "books = 80\nif books == 100:\n    print(\"Reading Champion Badge!\")\nelse:\n    print(\"Let's try a little more!\")",
+  "51100601027": "english = 80\nif english == 100:\n    print(\"Get a reward\")\nelse:\n    print(\"No reward\")",
+  "51100602010": "cookie = 10\nif cookie == 0:\n    print(\"Let's go buy some\")\nelse:\n    print(\"There is still some\")",
+  "51100602016": "lucky = 777\nif lucky == 777:\n    print(\"Lucky!\")\nelse:\n    print(\"Try again\")",
+  "51100603015": "",
+  "51100603023": "chem = 28\nif chem <= 40:\n    print(\"Practice worksheet\")\nelse:\n    print(\"No worksheet\")",
+  "51100603037": "english = 60\nif english >= 65:\n    print(\"Pass\")\nelse:\n    print(\"Fail\")",
+  "51100604017": "height = 91\nif height > 132:\n    print(\"Available\")\nelse:\n    print(\"Unavailable\")",
+  "51100604024": "height = 91\nif height < 90:\n    print(\"Unavailable\")\nelse:\n    print(\"Available\")",
+  "51100604029": "age = 15\nif age <= 16:\n    print(\"Entry not allowed\")\nelse:\n    print(\"Entry allowed\")",
+  "51100604032": "age = 15\nif age >= 65:\n    print(\"Slide closed\")\nelse:\n    print(\"Slide OK\")",
+  "51100605016": "weather = \"Cloudy\"\n\nif weather != \"Rainy\":\n    print(\"Play soccer\")",
+  "51100605024": "myScore = 90\n\nif myScore != 100:\n    print(\"Aim for a perfect score!\")",
+  "51100701017": "ticket = 2\nif ticket == 1:\n    print(\"Free drink\")\nelif ticket == 2:\n    print(\"Includes popcorn\")",
+  "51100702005": "ticket = 3\nif ticket == 1:\n    print(\"Free drink\")\nelif ticket == 2:\n    print(\"Includes popcorn\")\nelif ticket == 3:\n    print(\"Mini snack set\")",
+  "51100702008": "ticket = 4\nif ticket == 1:\n    print(\"Free drink\")\nelif ticket == 2:\n    print(\"Includes popcorn\")\nelif ticket == 3:\n    print(\"Mini snack set\")\nelif ticket == 4:\n    print(\"Goods voucher\")",
+  "51100702027": "ticket = 10\nif ticket == 1:\n    print(\"Free drink\")\nelif ticket == 2:\n    print(\"Includes popcorn\")\nelif ticket == 3:\n    print(\"Mini snack set\")\nelif ticket == 4:\n    print(\"Goods voucher\")\nelse:\n    print(\"No prize\")",
+  "51100703012": "people = 3\nif people == 2:\n    print(\"10% off\")\nelif people >= 3:\n    print(\"20% off\")\nelse:\n    print(\"Regular price\")",
+  "51100703017": "cup = 2\nif cup == 0:\n    print(\"We need to go buy some!\")\nelif cup <= 3:\n    print(\"It's almost gone\")\nelse:\n    print(\"There is still some\")",
+  "51100703027": "",
+  "51100801006": "books = 100\nif books == 100:\n    print(\"Reading Champion Badge!\")",
+  "51100801014": "books = 80\nif books == 100:\n    print(\"Reading Champion Badge!\")\nelse:\n    print(\"Let's try a little harder!\")",
+  "51100801020": "age = 15\nif age <= 16:\n    print(\"Entry not allowed\")\nelse:\n    print(\"Entry allowed\")",
+  "51100801031": "english = 77\nif english == 100:\n    print(\"Perfect score\")\nelif english >= 75:\n    print(\"Pass\")\nelse:\n    print(\"Make-up exam\")",
+  "51101203034": "import math\nprint(math.floor(7.8))",
+  "3004701023": "",
+  "3004701039": "const target = 1;\n\nswitch (target){\n  case 4:\n    console.log(\"Video game Get\");\n    break;\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n    console.log(\"Candy Assortment Get\");\n    break;\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n    break;\n}",
+  "3004701048": "const target = 1;\n\nswitch (target){\n  case 4:\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n　break;\n}",
+  "3004702017": "const num = 2;\n\nswitch (num) {\n  case 1:\n    console.log(\"Student \" + num + \" is in Group A\");\n    break;\n  case 2:\n    console.log(\"Student \" + num + \" is in Group B\");\n    break;\n  case 3:\n    console.log(\"Student \" + num + \" is in Group C\");\n    break;\n  case 4:\n    console.log(\"Student \" + num + \" is in Group D\");\n    break;\n}",
+  "3004702043": "for (let num = 1; num <= 30; num++) {\n  switch (num % 4) {\n    case 0:\n      console.log(\"Student \" + num + \" is in Group D\");\n      break;\n    case 1:\n      console.log(\"Student \" + num + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + num + \" is in Group B\");\n      break;\n    case 3:\n      console.log(\"Student \" + num + \" is in Group C\");\n      break;\n  }\n}",
+  "3004703015": "",
+  "3004703026": "let seat = \"sold out\";\nif (!(seat == \"available\")) {\n  console.log(\"It's sold out\");\n}",
+  "3004801007": "",
+  "3004801015": "const numList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\n\nfor (const num of numList) {\n  if (num % 7 == 0) {\n    console.log(num);\n  }\n}",
+  "3004801022": "let count = 0;\nfor (let i = 0; i <= 999; i++) {\n  if (i % 7 == 0) {\n    count++;\n  }\n}\nconsole.log(count);",
+  "3004801032": "function checkWinningNum(numList) {\n  for (const num of numList) {\n    if (num % 7 == 0) {\n      console.log(num);\n    }\n  }\n}\n\nconst myNumList = [128, 254, 458, 547, 125, 305, 581, 12, 783, 429];\ncheckWinningNum(myNumList);",
+  "3004801044": "const target = 1;\n\nswitch (target){\n  case 4:\n  case 8:\n    console.log(\"Video game Get\");\n    break;\n  case 1:\n  case 7:\n    console.log(\"Candy Assortment Get\");\n    break;\n  default:\n    console.log(\"Sticker Get\");\n　break;\n}",
+  "3004801053": "let seat = \"sold out\";\nif (!(seat == \"available\")) {\n  console.log(\"It's sold out\");\n}",
+  "3004901034": "let distance = 0;",
+  "3004901042": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n}",
+  "3004901046": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n  console.log(\"Walked a total of \" + distance + \"km\");\n}",
+  "3004902050": "",
+  "3004902055": "let money = 20000;\nlet year = 0;\nwhile (money < 50000) {\n  year++;\n  if (year % 2 == 0) {\n    money = money * 1.2;\n  }\n  console.log(money);\n}\nconsole.log(\"It will exceed 50000 codycoins in \" + year + \" years\");",
+  "3004903012": "",
+  "3004903028": "let year = 2026;\nlet tournamentCount = 0;\n\nwhile (year <= 2100) {\n  tournamentCount++;\n  year = year + 4;\n}\nconsole.log(\"There will be \" + tournamentCount + \" World Cup tournaments by the year 2100\");",
+  "3004903050": "let year = 2026;\nlet tournamentCount = 0;\n\nwhile (year <= 2100) {\n  if (year == 2050) {\n    year = year + 4;\n    continue;\n  }\n  tournamentCount++;\n  year = year + 4;\n}\nconsole.log(\"There will be \" + tournamentCount + \" World Cup tournaments by the year 2100\");",
+  "3005001028": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nconst stepCount = distanceList[0] / 0.7;\nconsole.log(stepCount);",
+  "3005001032": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nconst stepCount = distanceList[5] / 0.7;\nconsole.log(stepCount);",
+  "3005002022": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\n\nfor (const distance of distanceList){ \n  const stepCount = distance / 0.7\n  console.log(stepCount);\n}",
+  "3005003026": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\n\nfor (const distance of distanceList){ \n    sum = sum + distance;\n}\nconsole.log(sum);",
+  "3005003039": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nlet sum = 0;\n\nfor (const distance of distanceList){ \n    sum = sum + distance;\n}\nconsole.log( sum / distanceList.length );",
+  "3005101013": "let distance = 0;\nwhile (distance < 100) {\n  distance = distance + 6;\n  console.log(\"Walked a total of \" + distance + \"km\");\n}",
+  "3005101022": "let money = 10000;\nlet year = 0;\nwhile (money < 50000) {\n  year++;\n  if (year % 2 == 0) {\n    money = money * 1.2;\n  }\n  console.log(money);\n}\nconsole.log(\"It will exceed 50000 codycoins in \" + year + \" years\");",
+  "3005101026": "",
+  "3005101029": "",
+  "3005101037": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\nconst stepCount = distanceList[5] / 0.7;\nconsole.log(stepCount);",
+  "3005101041": "const distanceList = [4500, 5600, 2400, 3800, 4200, 6700, 3400];\n\nfor (const distance of distanceList){ \n  const stepCount = distance / 0.7\n  console.log(stepCount);\n}",
+  "3005201025": "const wordList = [\"dog\", \"dog\", \"dog\", \"dog\", \"dog\", \"dag\", \"dog\", \"dog\"];\n\nconsole.log(wordList.includes(\"dag\"));",
+  "3005201032": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\", \"ball\"];\n\nconsole.log(wordList.includes(\"bell\"));",
+  "3005202014": "",
+  "3005202026": "const wordList = [\"sun\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\", \"son\"];\n\nconsole.log(wordList.indexOf(\"sun\"));",
+  "3005202030": "const wordList = [\"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n\nconsole.log(wordList.indexOf(\"pen\"));",
+  "3005203014": "",
+  "3005203018": "const nameList = [\"Alex\", \"Emma\", \"Oliver\", \"Sophia\"];\n\nnameList.sort();\nconsole.log(nameList);",
+  "3005203027": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\n\nnameList.sort();\nconsole.log(nameList);",
+  "3005204009": "",
+  "3005204012": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\n\nrankingList.reverse();\nconsole.log(rankingList);",
+  "3005204021": "const rankingList = [\"Mason\", \"Isabella\", \"William\", \"Charlotte\", \"Rick\"];\n\nrankingList.reverse();\nconsole.log(rankingList);",
+  "3005301013": "",
+  "3005301020": "",
+  "3005301030": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\nsandwichIngredients.push(\"mayo\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+  "3005301037": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\nsandwichIngredients.push(\"mayo\", \"bacon\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+  "3005302011": "",
+  "3005302020": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"cupcakes\"];\n\nsandwichIngredients.pop();\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+  "3005302028": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\", \"mayo\", \"bacon\" , \"shrimp\"];\n\nsandwichIngredients.pop();\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+  "3005303013": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n\nburgerIngredients.pop();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+  "3005303019": "",
+  "3005303026": "const burgerIngredients = [\"lettuce\", \"tomato\", \"cheese\", \"meat\"];\n\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+  "3005303031": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+  "3005304012": "",
+  "3005304019": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\", \"Rick\"];\n\nrankingList.pop();\nconsole.log(rankingList);",
+  "3005304025": "",
+  "3005304034": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n\nrankingList.unshift(\"Rick\");\nconsole.log(rankingList);",
+  "3005304037": "const rankingList = [\"Lily\", \"Noah\", \"WilLily\", \"Mason\"];\n\nrankingList.unshift(\"Cody\");\nconsole.log(rankingList);",
+  "3005401007": "const wordList = [\"ball\", \"ball\", \"ball\", \"ball\", \"bell\", \"ball\", \"ball\"];\n\nconsole.log(wordList.includes(\"bell\"));",
+  "3005401011": "const wordList = [\"pan\", \"pan\", \"pen\", \"pan\", \"pan\", \"pan\", \"pan\", \"pan\"];\n\nconsole.log(wordList.indexOf(\"pen\"));",
+  "3005401017": "const nameList = [\"Mia\", \"Noah\", \"Liam\", \"David\", \"Grace\"];\n\nnameList.sort();\nconsole.log(nameList);",
+  "3005401023": "const rankingList = [\"James\", \"Luna\", \"Ethan\", \"Ava\", \"Rick\"];\n\nrankingList.reverse();\nconsole.log(rankingList);",
+  "3005401031": "const sandwichIngredients = [\"bread\", \"lettuce\", \"tomato\", \"cheese\"];\n\nsandwichIngredients.push(\"mayo\");\nconsole.log(\"Sandwich Ingredients\");\nconsole.log(sandwichIngredients);",
+  "3005401034": "const ingredientsList = [\"pasta\", \"tomatoes\", \"garlic\", \"cheese\", \"ice cream\"];\n\ningredientsList.pop();\nconsole.log(\"Pasta Ingredients\");\nconsole.log(ingredientsList);",
+  "3005401040": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\nburgerIngredients.shift();\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);",
+  "3005401044": "const burgerIngredients = [\"cucumber\", \"sauce\", \"shrimp\", \"mayo\"];\n\nburgerIngredients.unshift(\"mushroom\");\nconsole.log(\"Cody's burger ingredients\");\nconsole.log(burgerIngredients);"
+ },
+ "answer": {
+  "511009:511009010": {
+   "choice_id": 5110090101
+  },
+  "511009:511009020": {
+   "choice_id": 5110090201
+  },
+  "511009:511009030": {
+   "choice_id": 5110090301
+  },
+  "511009:511009040": {
+   "answer_code": "a = 5\nb = 10\n\nif a == 5 or b == 10:\n    print(\"The condition is met\")\n"
+  },
+  "511009:511009050": {
+   "answer_code": "a = 4\nb = 3\nif a >= 2 and b >= 3:\n    print(\"The condition is met\")\n"
+  },
+  "511010:511010010": {
+   "choice_id": 5110100101
+  },
+  "511010:511010020": {
+   "choice_id": 5110100201
+  },
+  "511010:511010030": {
+   "choice_id": 5110100301
+  },
+  "511010:511010040": {
+   "answer_code": "for i in range(5):\n    print(\"Hello\")\n"
+  },
+  "511010:511010050": {
+   "answer_code": "for i in range(7):\n    print(\"Hello\")\n"
+  },
+  "511011:511011010": {
+   "choice_id": 5110110101
+  },
+  "511011:511011020": {
+   "choice_id": 5110110201
+  },
+  "511011:511011030": {
+   "choice_id": 5110110301
+  },
+  "511011:511011040": {
+   "choice_id": 5110110401
+  },
+  "511011:511011050": {
+   "choice_id": 5110110501
+  },
+  "511011:511011060": {
+   "answer_code": "for i in range(10):\n    print(\"Good morning\")\n"
+  },
+  "511011:511011070": {
+   "answer_code": "a = 4\nb = 3\nif a >= 2 and b >= 3:\n    print(\"the condition is met\")\n"
+  },
+  "511011:511011080": {
+   "answer_code": "for i in range(3):\n    print(\"Hello\")\n"
+  },
+  "511012:511012010": {
+   "choice_id": 5110120101
+  },
+  "511012:511012020": {
+   "choice_id": 5110120201
+  },
+  "511012:511012030": {
+   "choice_id": 5110120301
+  },
+  "511012:511012040": {
+   "answer_code": "import math\n\nprint(round(5.5))\nprint(math.floor(8.8))\n"
+  },
+  "511012:511012050": {
+   "answer_code": "import random\nif random.random() >= 0.5:\n    print(\"A bright day\")\nelse:\n    print(\"Take it slow and do your best\")\n"
+  },
+  "511012:511012060": {
+   "answer_code": "print(math.floor(random.random() * 10))\n"
+  },
+  "511013:511013010": {
+   "choice_id": 5110130101
+  },
+  "511013:511013020": {
+   "choice_id": 5110130201
+  },
+  "511013:511013030": {
+   "choice_id": 5110130301
+  },
+  "511013:511013040": {
+   "answer_code": "def calc(num):\n    result = num * 5\n    return result\nprint(calc(3))\n"
+  },
+  "511013:511013050": {
+   "answer_code": "def calc(num):\n    result = num * 7\n    return result\nprint(calc(10))\n"
+  },
+  "511014:511014010": {
+   "choice_id": 5110140101
+  },
+  "511014:511014020": {
+   "choice_id": 5110140201
+  },
+  "511014:511014030": {
+   "choice_id": 5110140301
+  },
+  "511014:511014040": {
+   "choice_id": 5110140401
+  },
+  "511014:511014060": {
+   "choice_id": 5110140601
+  },
+  "511014:511014050": {
+   "answer_code": "import math\nimport random\nprint(math.floor(random.random() * 10))\n"
+  },
+  "511014:511014070": {
+   "answer_code": "def calc(num):\n    result = num * 7\n    return result\nprint(calc(10))\n"
+  },
+  "511014:511014080": {
+   "answer_code": "def calc(num):\n    result = num * 5\n    return result\nprint(calc(3))\n"
+  },
+  "511015:511015010": {
+   "answer_code": "num = [5, 10, 15]\n"
+  },
+  "511015:511015020": {
+   "choice_id": 5110150201
+  },
+  "511015:511015030": {
+   "answer_code": "num = [5, 10, 15, 20, 25]\nprint(num)\n"
+  },
+  "511015:511015040": {
+   "choice_id": 5110150401
+  },
+  "511015:511015050": {
+   "answer_code": "num = [5, 10, 15, 20, 25]\nprint(len(num))\n"
+  },
+  "511016:511016010": {
+   "choice_id": 5110160101
+  },
+  "511016:511016020": {
+   "choice_id": 5110160201
+  },
+  "511016:511016030": {
+   "answer_code": "import array\n\nround_array = array.array('i', [1, 2, 3, 4, 5])\nprint(round_array[1])\nprint(round_array[4])\n"
+  },
+  "511016:511016040": {
+   "choice_id": 5110160401
+  },
+  "511016:511016050": {
+   "choice_id": 5110160501
+  },
+  "511017:511017010": {
+   "choice_id": 5110170101
+  },
+  "511017:511017030": {
+   "choice_id": 5110170301
+  },
+  "511017:511017040": {
+   "choice_id": 5110170401
+  },
+  "511017:511017050": {
+   "choice_id": 5110170501
+  },
+  "511017:511017060": {
+   "choice_id": 5110170601
+  },
+  "511017:511017020": {
+   "answer_code": "num = [5, 10, 15, 20, 25]\nprint(num)\n"
+  },
+  "511018:511018010": {
+   "choice_id": 5110180101
+  },
+  "511018:511018020": {
+   "choice_id": 5110180201
+  },
+  "511018:511018030": {
+   "choice_id": 5110180301
+  },
+  "511018:511018040": {
+   "choice_id": 5110180401
+  },
+  "511018:511018050": {
+   "choice_id": 5110180501
+  },
+  "511019:511019010": {
+   "choice_id": 5110190101
+  },
+  "511019:511019020": {
+   "choice_id": 5110190201
+  },
+  "511019:511019030": {
+   "choice_id": 5110190301
+  },
+  "511019:511019040": {
+   "answer_code": "import math\nimport random\nprint(math.floor(random.random() * 10))\n"
+  },
+  "511019:511019050": {
+   "answer_code": "import random\nif random.random() >= 0.7:\n    print(\"Grand prize!\")\nelse:\n    print(\"Consolation prize\")\n"
+  },
+  "511020:511020010": {
+   "choice_id": 5110200101
+  },
+  "511020:511020020": {
+   "choice_id": 5110200201
+  },
+  "511020:511020030": {
+   "choice_id": 5110200301
+  },
+  "511020:511020040": {
+   "choice_id": 5110200401
+  },
+  "511020:511020050": {
+   "answer_code": "import math\nimport random\nprint(math.floor(random.random() * 10))\n"
+  },
+  "511020:511020060": {
+   "answer_code": "import random\nif random.random() >= 0.7:\n    print(\"Grand prize!\")\nelse:\n    print(\"Consolation prize\")\n"
+  },
+  "511021:511021020": {
+   "choice_id": 5110210201
+  },
+  "511021:511021050": {
+   "choice_id": 5110210501
+  },
+  "511021:511021060": {
+   "choice_id": 5110210601
+  },
+  "511021:511021070": {
+   "choice_id": 5110210701
+  },
+  "511021:511021090": {
+   "choice_id": 5110210901
+  },
+  "511021:511021010": {
+   "answer_code": "A = 5\nB = 10\nif A > B:\n    print(\"A is bigger\")\nelif A < B:\n    print(\"B is bigger\")\n"
+  },
+  "511021:511021030": {
+   "answer_code": "math = 100\nenglish = 100\nif math == 100:\n    print(\"Math is 100 points\")\nif english == 100:\n    print(\"Math and English are 100 points\")\n"
+  },
+  "511021:511021040": {
+   "answer_code": "for i in range(7):\n    print(\"Good morning\")\n"
+  },
+  "511021:511021080": {
+   "answer_code": "def divide3(num):\n    result = num / 3\n    return result\nprint(divide3(12345))\n"
+  },
+  "511021:511021100": {
+   "answer_code": "def mul(num1, num2):\n    result = num1 * num2\n    return result\nprint(mul(9, 7))\n"
+  },
+  "511022:511022020": {
+   "choice_id": 5110220201
+  },
+  "511022:511022010": {
+   "answer_code": "num = 1\nfor i in range(5):\n    num = num * 7\nprint(num)\n"
+  },
+  "511022:511022030": {
+   "answer_code": "num = 5040\nfor i in range(1, 6):\n    num = num / i\nprint(num)\n"
+  },
+  "511022:511022040": {
+   "answer_code": "mark_list = [48, 55, 74, 85, 63, 57, 91]\nprint(mark_list[5])\n"
+  },
+  "511022:511022050": {
+   "answer_code": "mark_list = [48, 55, 74, 85, 63, 57, 91]\nprint(len(mark_list))\n"
+  },
+  "511022:511022060": {
+   "answer_code": "mark_list = [48, 55, 74, 85, 63, 57, 91]\nfor i in range(len(mark_list)):\n    if mark_list[i] >= 85:\n        print(\"85 or above\")\n"
+  },
+  "511023:511023010": {
+   "choice_id": 5110230101
+  },
+  "511023:511023020": {
+   "choice_id": 5110230201
+  },
+  "511023:511023030": {
+   "choice_id": 5110230301
+  },
+  "511023:511023040": {
+   "answer_code": "point_list = [2, 5, 8, 11]\nfor point in point_list:\n    print(point)\n"
+  },
+  "511023:511023050": {
+   "answer_code": "word_list = [\"Good morning\", \"Good night\", \"Hello\"]\nfor word in word_list:\n    print(word)\n"
+  },
+  "511024:511024010": {
+   "choice_id": 5110240101
+  },
+  "511024:511024040": {
+   "choice_id": 5110240401
+  },
+  "511024:511024050": {
+   "choice_id": 5110240501
+  },
+  "511024:511024020": {
+   "answer_code": "point_list = [2, 5, 8, 11]\nfor point in point_list:\n    print(point)\n"
+  },
+  "511024:511024030": {
+   "answer_code": "word_list = [\"good morning\", \"good night\", \"hello\"]\nfor word in word_list:\n    print(word)\n"
+  },
+  "511024:511024060": {
+   "answer_code": "weather = \"rainy\"\ntime = \"morning\"\nif weather == \"rainy\":\n    if time == \"morning\":\n        print(\"Let's go to the movie theater\")\n    elif time == \"noon\":\n        print(\"Let's go to the library\")\n    else:\n        print(\"Let's stay home\")\nelse:\n    print(\"Let's go for a walk\")\n"
+  },
+  "511025:511025010": {
+   "choice_id": 5110250101
+  },
+  "511025:511025040": {
+   "choice_id": 5110250401
+  },
+  "511025:511025050": {
+   "choice_id": 5110250501
+  },
+  "511025:511025070": {
+   "choice_id": 5110250701
+  },
+  "511025:511025020": {
+   "answer_code": "def calculation3(a, b, c):\n    result = a * b * c\n    return result\nnum1 = calculation3(5, 10, 15)\nprint(num1)\n"
+  },
+  "511025:511025030": {
+   "answer_code": "def calculation3(a, b, c):\n    result = a * b * c\n    return result\nnum1 = calculation3(5, 10, 15)\nprint(num1)\nnum2 = calculation3(4, 4, 4)\nprint(num2)\n"
+  },
+  "511025:511025060": {
+   "answer_code": "score_list = [70, 80, 66, 88, 92]\n\nfor score in score_list:\n    if score >= 80:\n        print(score)\n"
+  },
+  "511002:511002010": {
+   "choice_id": 5110020101
+  },
+  "511002:511002020": {
+   "choice_id": 5110020201
+  },
+  "511002:511002060": {
+   "choice_id": 5110020601
+  },
+  "511002:511002080": {
+   "choice_id": 5110020801
+  },
+  "511002:511002090": {
+   "choice_id": 5110020901
+  },
+  "511002:511002030": {
+   "answer_code": "print(19 + 40)"
+  },
+  "511002:511002040": {
+   "answer_code": "print(7 - 2)"
+  },
+  "511002:511002050": {
+   "answer_code": "print(15 / 5)"
+  },
+  "511002:511002070": {
+   "answer_code": "print(\"The answer is \" + str(2 * 5) + \".\")\n"
+  },
+  "511003:511003010": {
+   "choice_id": 5110030101
+  },
+  "511003:511003020": {
+   "choice_id": 5110030201
+  },
+  "511003:511003030": {
+   "answer_code": "number = 0"
+  },
+  "511003:511003040": {
+   "answer_code": "number = 0\nnumber = 100\n"
+  },
+  "511003:511003050": {
+   "answer_code": "number = 0\nnumber = 10\nprint(number)"
+  },
+  "511003:511003060": {
+   "answer_code": "number = 3\nnumber = number + 10\nprint(number)"
+  },
+  "511005:511005020": {
+   "choice_id": 5110050201
+  },
+  "511005:511005030": {
+   "answer_code": "num = 100\nif num == 100:\n    print(\"Correct\")"
+  },
+  "511005:511005050": {
+   "choice_id": 5110050501
+  },
+  "511005:511005010": {
+   "choice_id": 5110050101
+  },
+  "511005:511005040": {
+   "choice_id": 5110050401
+  },
+  "511006:511006010": {
+   "choice_id": 5110060101
+  },
+  "511006:511006030": {
+   "choice_id": 5110060301
+  },
+  "511006:511006040": {
+   "choice_id": 5110060401
+  },
+  "511006:511006020": {
+   "answer_code": "num = 5\nif num == 10:\n    print(\"Win\")\nelse:\n    print(\"No prize\")"
+  },
+  "511006:511006050": {
+   "answer_code": "score = 80\nif score >= 60:\n    print(\"Pass\")\nelse:\n    print(\"Fail\")"
+  },
+  "511004:511004010": {
+   "choice_id": 5110040101
+  },
+  "511004:511004040": {
+   "choice_id": 5110040401
+  },
+  "511004:511004050": {
+   "choice_id": 5110040501
+  },
+  "511004:511004070": {
+   "choice_id": 5110040701
+  },
+  "511004:511004020": {
+   "answer_code": "print(\"hello\")"
+  },
+  "511004:511004030": {
+   "answer_code": "#Leave this text\nprint(\"Make the first line a comment\")\n"
+  },
+  "511004:511004060": {
+   "answer_code": "print(\"The answer is \" + str(3 * 4))\n"
+  },
+  "511004:511004080": {
+   "answer_code": "num = 5\nprint(num)"
+  },
+  "90021:90021010": {
+   "choice_id": 900210101
+  },
+  "90021:90021020": {
+   "answer_code": "let A = 5\nlet B = 10\nif (A > B) {\n  console.log(\"A is larger\");\n} else if (A < B)  {\n  console.log(\"B is larger\");\n}"
+  },
+  "90021:90021030": {
+   "choice_id": 900210301
+  },
+  "90021:90021040": {
+   "choice_id": 900210401
+  },
+  "90021:90021050": {
+   "choice_id": 900210501
+  },
+  "90021:90021060": {
+   "choice_id": 900210601
+  },
+  "90021:90021070": {
+   "answer_code": "let numberOfPeople = 8;\nlet weight = 400;\nif (numberOfPeople <= 10 || weight <= 800) {\n  console.log(\"You can ride the elevator\");\n}\n"
+  },
+  "90021:90021080": {
+   "choice_id": 900210801
+  },
+  "90021:90021090": {
+   "answer_code": "let math = 100;\nlet science = 100;\nif (math == 100) {\n  console.log(\"Math is 100 points\");\n  if (science == 100) {\n    console.log(\"Math and science are 100 points\");\n  }\n}\n"
+  },
+  "90022:90022010": {
+   "choice_id": 900220101
+  },
+  "90022:90022020": {
+   "choice_id": 900220201
+  },
+  "90022:90022030": {
+   "choice_id": 900220301
+  },
+  "90022:90022040": {
+   "answer_code": "for (let i=0;i<3;i++) {\n  console.log(\"Programming\");\n}"
+  },
+  "90022:90022050": {
+   "answer_code": "for (let i=0 ; i < 7 ; i++){\n console.log(\"Good morning\");\n}\n"
+  },
+  "90022:90022060": {
+   "choice_id": 900220601
+  },
+  "90022:90022070": {
+   "answer_code": "for (let i = 0; i < 5; i++) {\n    console.log(\"sit-ups\");\nif(i==4){\n    console.log(\"End\");\n}\n}"
+  },
+  "90022:90022080": {
+   "choice_id": 900220801
+  },
+  "90022:90022090": {
+   "choice_id": 900220901
+  },
+  "90023:90023010": {
+   "choice_id": 900230101
+  },
+  "90023:90023020": {
+   "choice_id": 900230201
+  },
+  "90023:90023030": {
+   "choice_id": 900230301
+  },
+  "90023:90023040": {
+   "answer_code": "function divide5(total) {\n    let num = total / 5;\n    return num;\n}\nconsole.log(divide5(35));\n"
+  },
+  "90023:90023050": {
+   "choice_id": 900230501
+  },
+  "90023:90023060": {
+   "answer_code": "function goodNight() {\n  let greeting = \"Good night!\";\n  return greeting;\n}\nconsole.log(goodNight());\n"
+  },
+  "90023:90023070": {
+   "answer_code": "function mul(num1, num2) {\n  let answer = num1 * num2;\n  return answer;\n}\nconsole.log(mul(9, 7));\n"
+  },
+  "90024:90024020": {
+   "choice_id": 900240201
+  },
+  "90024:90024050": {
+   "choice_id": 900240501
+  },
+  "90024:90024060": {
+   "choice_id": 900240601
+  },
+  "90024:90024070": {
+   "choice_id": 900240701
+  },
+  "90024:90024090": {
+   "choice_id": 900240901
+  },
+  "90024:90024010": {
+   "answer_code": "let A = 5\nlet B = 10\nif (A > B) {\n  console.log(\"A is larger\");\n} else if (A < B) {\n  console.log(\"B is larger\");\n}"
+  },
+  "90024:90024030": {
+   "answer_code": "let science = 100;\nlet math = 100;\nif (science == 100) {\n  console.log(\"Science is 100 points\");\n  if (math == 100) {\n    console.log(\"Science and Math are 100 points\");\n  }\n}"
+  },
+  "90024:90024040": {
+   "answer_code": "for (let i=0 ; i < 7 ; i++){\n console.log(\"Good morning\");\n}\n"
+  },
+  "90024:90024080": {
+   "answer_code": "function divide3(num) {\n    let result = num / 3;\n    return result;\n}console.log(divide3(12345));"
+  },
+  "90024:90024100": {
+   "answer_code": "function mul(num1, num2) {\n    let result = num1 * num2;\n    return result;\n}\nconsole.log(mul(9, 7));\n"
+  },
+  "90025:90025010": {
+   "choice_id": 900250101
+  },
+  "90025:90025020": {
+   "answer_code": "let num=1;\nfor( let i=0;i<5;i++){\n    num=num*7;\n}\nconsole.log(num);"
+  },
+  "90025:90025030": {
+   "choice_id": 900250301
+  },
+  "90025:90025040": {
+   "answer_code": "let num = 0;\nfor (let i = 0; i < 6; i++) {\n  num = num + i;\n}\nconsole.log(num);\n"
+  },
+  "90025:90025050": {
+   "answer_code": "let num=5040;\nfor (let i=1;i <=5;i++){\n    num =num/i;\n}\nconsole.log(num);"
+  },
+  "90026:90026010": {
+   "choice_id": 900260101
+  },
+  "90026:90026020": {
+   "answer_code": "let scoreList = [52, 60, 79, 82, 66, 59, 88];\nconsole.log(scoreList[5]);"
+  },
+  "90026:90026030": {
+   "answer_code": "let scoreList = [52, 60, 79, 82, 66, 59, 88];\nlet sum= 0;\nfor (let i=0;i <7;i++){\n    sum = sum+ scoreList[i];\n}\n console.log(sum / 7);"
+  },
+  "90026:90026040": {
+   "answer_code": "let scoreList = [52, 60, 79, 82, 66, 59, 88];\nconsole.log(scoreList.length);"
+  },
+  "90026:90026050": {
+   "answer_code": "let scoreList = [52, 60, 79, 82, 66, 59, 88];\nfor (let i = 0; i < scoreList.length; i++) {\n  if (scoreList[i] >= 80) {\n    console.log(\"80 points or higher\");\n  }\n}\n"
+  },
+  "90027:90027020": {
+   "choice_id": 900270201
+  },
+  "90027:90027010": {
+   "answer_code": "let num = 1;\nfor (let i = 0; i < 3; i++) {\n    num = num * 9;\n}\nconsole.log(num);"
+  },
+  "90027:90027030": {
+   "answer_code": "let num = 5040;\nfor (let i = 1; i <= 5; i++) {\n    num = num / i;\n}\nconsole.log(num);"
+  },
+  "90027:90027040": {
+   "answer_code": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nconsole.log(scoreList[4] );"
+  },
+  "90027:90027050": {
+   "answer_code": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nconsole.log(scoreList.length);"
+  },
+  "90027:90027060": {
+   "answer_code": "let scoreList = [52, 90, 70, 83, 63, 72, 89];\nfor (let i = 0; i < scoreList.length; i++) {\n  if (scoreList[i] >= 80) {\n    console.log(\"Pass\");\n  }\n}\n"
+  },
+  "90028:90028010": {
+   "choice_id": 900280101
+  },
+  "90028:90028020": {
+   "choice_id": 900280201
+  },
+  "90028:90028030": {
+   "choice_id": 900280301
+  },
+  "90028:90028040": {
+   "answer_code": "let numList = [2, 4, 6, 8];\nfor (let num of numList) {\n  console.log(num);\n}\n"
+  },
+  "90028:90028050": {
+   "answer_code": "let wordList = [\"Good morning\", \"Good night\", \"Hello\"];\nfor (let word of wordList) {\n  console.log(word);\n}\n"
+  },
+  "90029:90029010": {
+   "answer_code": "let A = 5;\nlet B = 10;\nif (A > B) {\n  console.log(\"A is bigger\");\n}else if (A < B) {\n  console.log(\"B is bigger\");\n}"
+  },
+  "90029:90029020": {
+   "choice_id": 900290201
+  },
+  "90029:90029030": {
+   "choice_id": 900290301
+  },
+  "90029:90029040": {
+   "answer_code": "let weather = \"sunny\";\nlet shop = \"OPEN\";\n\nif (weather == \"sunny\") {\n if (shop == \"OPEN\") {\n    console.log(\"Go to the shop\");\n  }\n} else {\n  console.log(\"Staying at home\");\n}"
+  },
+  "90029:90029050": {
+   "answer_code": "let weather = \"rain\";\nlet time = \"morning\";\n\nif (weather == \"rain\") {\n  if (time == \"morning\") {\n    console.log(\"Let's go to the movie theater\");\n  } else if (time == \"noon\") {\n    console.log(\"Let's go to the library\");\n  } else {\n    console.log(\"Let's stay at home\");\n  }\n} else {\n  console.log(\"Let's go for a walk\");\n}\n"
+  },
+  "90030:90030010": {
+   "choice_id": 900300101
+  },
+  "90030:90030040": {
+   "choice_id": 900300401
+  },
+  "90030:90030050": {
+   "choice_id": 900300501
+  },
+  "90030:90030020": {
+   "answer_code": "let numList = [2, 4, 6, 8];\nfor (let num of numList) {\n  console.log(num);\n}\n"
+  },
+  "90030:90030030": {
+   "answer_code": "let wordList = [\"Good morning\", \"Good night\", \"Hello\"];\nfor (let word of wordList) {\n  console.log(word);\n}\n"
+  },
+  "90030:90030060": {
+   "answer_code": "let weather = \"rain\";\nlet time = \"morning\";\n\nif (weather == \"rain\") {\n  if (time == \"morning\") {\n    console.log(\"Let's go to the movie theater\");\n  } else if (time == \"noon\") {\n    console.log(\"Let's go to the library\");\n  } else {\n    console.log(\"Let's stay at home\");\n  }\n} else {\n  console.log(\"Let's go for a walk\");\n}\n"
+  },
+  "90031:90031010": {
+   "answer_code": "function calculation3(a, b, c){\r\nlet result = a * b * c;\r\nreturn result;\r\n}\r\nconsole.log(calculation3(2, 3, 4));"
+  },
+  "90031:90031020": {
+   "choice_id": 900310201
+  },
+  "90031:90031030": {
+   "answer_code": "function calculation3(a, b, c) {\r\nlet result = a * b * c;\r\nreturn result;\r\n}\r\nlet num1 = calculation3(5, 10, 15);\r\nconsole.log(num1);"
+  },
+  "90031:90031040": {
+   "answer_code": "function calculation3(a, b, c) {\n  let result = a * b * c;\n  return result;\n}\nlet num1 = calculation3(5, 10, 15);\nconsole.log(num1);\nlet num2 = calculation3(4, 4, 4);\nconsole.log(num2);\n"
+  },
+  "90031:90031050": {
+   "choice_id": 900310501
+  },
+  "90032:90032010": {
+   "choice_id": 900320101
+  },
+  "90032:90032020": {
+   "choice_id": 900320201
+  },
+  "90032:90032030": {
+   "answer_code": "let heightList = [154, 138, 140, 180, 170];\n\nfor (let height of heightList) {\nif (height >= 150){\n    console.log(height);\n}\n}"
+  },
+  "90032:90032040": {
+   "choice_id": 900320401
+  },
+  "90032:90032050": {
+   "answer_code": "let height = 148;\nlet age = 14;\n\nif (height >= 140) {\n  if (age >= 12) {\n    console.log(\"You can ride alone\");\n  } else {\n    console.log(\"Please ride with someone who is 18 years or older\");\n  }\n} else {\n  console.log(\"You cannot ride\");\n}\n"
+  },
+  "90033:90033010": {
+   "choice_id": 900330101
+  },
+  "90033:90033040": {
+   "choice_id": 900330401
+  },
+  "90033:90033050": {
+   "choice_id": 900330501
+  },
+  "90033:90033070": {
+   "choice_id": 900330701
+  },
+  "90033:90033020": {
+   "answer_code": "function calc3(a, b, c) {\n  let result = a * b * c;\n  return result;\n}\nlet num1 = calc3(5, 10, 15);\nconsole.log(num1);"
+  },
+  "90033:90033030": {
+   "answer_code": "function calc3(a, b, c) {\n  let result = a * b * c;\n  return result;\n}\nlet num1 = calc3(5, 10, 15);\nconsole.log(num1);\nlet num2 = calc3(4, 4, 4);\nconsole.log(num2);\n"
+  },
+  "90033:90033060": {
+   "answer_code": "let heightList = [154, 138, 140, 180, 170];\n\nfor (let height of heightList) {\nif (height >= 150) {\n    console.log(height);\n  }\n}"
+  },
+  "90034:90034010": {
+   "answer_code": "<p>Menu</p>\n<ul>\n    <li>Hamburger</li>\n    <li>Pizza</li>\n    <li>Sandwich</li>\n</ul>"
+  },
+  "90034:90034020": {
+   "choice_id": 900340201
+  },
+  "90034:90034030": {
+   "choice_id": 900340301
+  },
+  "90034:90034040": {
+   "choice_id": 900340401
+  },
+  "90034:90034050": {
+   "answer_code": "<input type=\"button\" value=\"Submit\">\n"
+  },
+  "90035:90035010": {
+   "choice_id": 900350101
+  },
+  "90035:90035020": {
+   "choice_id": 900350201
+  },
+  "90035:90035030": {
+   "choice_id": 900350301
+  },
+  "90035:90035040": {
+   "choice_id": 900350401
+  },
+  "90035:90035050": {
+   "choice_id": 900350501
+  },
+  "90036:90036020": {
+   "choice_id": 900360201
+  },
+  "90036:90036030": {
+   "choice_id": 900360301
+  },
+  "90036:90036050": {
+   "choice_id": 900360501
+  },
+  "90036:90036060": {
+   "choice_id": 900360601
+  },
+  "90036:90036070": {
+   "choice_id": 900360701
+  },
+  "90036:90036080": {
+   "choice_id": 900360801
+  },
+  "90036:90036010": {
+   "answer_code": "<p>Menu</p>\n<ul>\n    <li>Hamburger</li>\n    <li>Pizza</li>\n    <li>Sandwich</li>\n</ul>"
+  },
+  "90036:90036040": {
+   "answer_code": "<input type=\"button\" value=\"Submit\">\n"
+  },
+  "90037:90037010": {
+   "answer_code": "let color = \"green\";\n\nif (color == \"red\") {\n    console.log(\"Red\");\n} else if (color == \"blue\") {\n    console.log(\"Blue\");\n} else if (color == \"green\") {\n    console.log(\"Green\");\n}\n"
+  },
+  "90037:90037020": {
+   "choice_id": 900370201
+  },
+  "90037:90037030": {
+   "choice_id": 900370301
+  },
+  "90037:90037040": {
+   "answer_code": "let letter = \"B\";\n\nswitch (letter) {\n    case \"A\":\n        console.log(\"Well done!\");\n        break;\n    case \"B\":\n        console.log(\"Keep up the good work\");\n        break;\n    case \"C\":\n        console.log(\"Let's try a little harder\");\n        break;\n}\n"
+  },
+  "90037:90037050": {
+   "answer_code": "let letter = \"D\";\n\nswitch (letter) {\n  case \"A\":\n    console.log(\"Well done!\");\n    break;\n  case \"B\":\n    console.log(\"Keep up the good work\");\n    break;\n  case \"C\":\n    console.log(\"Let's try a little harder\");\n    break;\n  default:\n    console.log(\"The notation is incorrect\");\n    break;\n}\n"
+  },
+  "90038:90038010": {
+   "choice_id": 900380101
+  },
+  "90038:90038020": {
+   "choice_id": 900380201
+  },
+  "90038:90038030": {
+   "answer_code": "let dayCount = 14;\n\nif (dayCount % 7 == 0) {\n  console.log(\"Let's eat a hamburger!\");\n}\n"
+  },
+  "90038:90038040": {
+   "answer_code": "let dayCount = 11;\n\nswitch (dayCount % 7) {\n  case 0:\n    console.log(\"Let's eat a hamburger!\");\n    break;\n  case 4:\n    console.log(\"Let's eat steak!\");\n    break;\n}\n"
+  },
+  "90038:90038050": {
+   "answer_code": "let number = 20;\n\nswitch (number % 3) {\n  case 0:\n    console.log(\"Group A\");\n    break;\n  case 1:\n    console.log(\"Group B\");\n    break;\n  case 2:\n    console.log(\"Group C\");\n    break;\n}\n"
+  },
+  "90039:90039010": {
+   "choice_id": 900390101
+  },
+  "90039:90039020": {
+   "choice_id": 900390201
+  },
+  "90039:90039040": {
+   "choice_id": 900390401
+  },
+  "90039:90039030": {
+   "answer_code": "let letter = \"B\";\n\nswitch (letter) {\n  case \"A\":\n    console.log(\"Well done!\");\n    break;\n  case \"B\":\n    console.log(\"Keep up the good work\");\n    break;\n  case \"C\":\n    console.log(\"Let's try a little harder\");\n    break;\n}\n"
+  },
+  "90039:90039050": {
+   "answer_code": "let dayCount = 14;\n\nif (dayCount % 7 == 0) {\n  console.log(\"Let's eat a hamburger!\");\n}\n"
+  },
+  "90039:90039060": {
+   "answer_code": "let number = 20;\n\nswitch (number % 3) {\n  case 0:\n    console.log(\"Group A\");\n    break;\n  case 1:\n    console.log(\"Group B\");\n    break;\n  case 2:\n    console.log(\"Group C\");\n    break;\n}\n"
+  },
+  "90040:90040010": {
+   "choice_id": 900400101
+  },
+  "90040:90040020": {
+   "choice_id": 900400201
+  },
+  "90040:90040030": {
+   "answer_code": "let num;\nnum = 3;\nnum = 5;\nconsole.log(num);\n"
+  },
+  "90040:90040040": {
+   "choice_id": 900400401
+  },
+  "90040:90040050": {
+   "answer_code": "const answer1 = 1023;\nconst answer2 = 1024;\n\nif (answer1 != answer2) {\n  console.log(\"Let's review once more!\");\n}\n"
+  },
+  "90041:90041010": {
+   "answer_code": "for (let i = 0; i < 3; i++) {\nconsole.log(\"Programming\");\n}\n\n"
+  },
+  "90041:90041020": {
+   "choice_id": 900410201
+  },
+  "90041:90041030": {
+   "choice_id": 900410301
+  },
+  "90041:90041040": {
+   "answer_code": "let money = 1000;\nconst snacks = 230;\nwhile (money > snacks) {\n  money = money - snacks;\n  console.log(money);\n}\n"
+  },
+  "90041:90041050": {
+   "answer_code": "let money = 600;\nlet month = 0;\nwhile (money < 4000) {\n  month ++;\n  money += 800;\n}\nconsole.log(\"Save for \" + month + \" months\");\n"
+  },
+  "90042:90042010": {
+   "choice_id": 900420101
+  },
+  "90042:90042030": {
+   "choice_id": 900420301
+  },
+  "90042:90042040": {
+   "choice_id": 900420401
+  },
+  "90042:90042020": {
+   "answer_code": "let num;\nnum = 3;\nnum = 5;\nconsole.log(num);\n\n\n"
+  },
+  "90042:90042050": {
+   "answer_code": "let money = 1000;\nconst snacks = 230;\nwhile (money > snacks) {\nmoney = money - snacks;\nconsole.log(money);\n}\n"
+  },
+  "90042:90042060": {
+   "answer_code": "let money = 600;\nlet month = 0;\nwhile (money < 4000) {\n  month ++;\n  money += 800;\n}\nconsole.log(\"Save for \" + month + \" months\");\n"
+  },
+  "90043:90043010": {
+   "choice_id": 900430101
+  },
+  "90043:90043020": {
+   "choice_id": 900430201
+  },
+  "90043:90043030": {
+   "choice_id": 900430301
+  },
+  "90043:90043040": {
+   "choice_id": 900430401
+  },
+  "90043:90043050": {
+   "choice_id": 900430501
+  },
+  "90044:90044010": {
+   "choice_id": 900440101
+  },
+  "90044:90044020": {
+   "choice_id": 900440201
+  },
+  "90044:90044030": {
+   "answer_code": "<div class=\"mountains\">\n  <h1>World Mountains</h1>\n  <ul>\n    <li>Mount Everest</li>\n    <li>Mount McKinley</li>\n    <li>Mount Kilimanjaro</li>\n  </ul>\n</div>\n"
+  },
+  "90044:90044040": {
+   "choice_id": 900440401
+  },
+  "90044:90044050": {
+   "choice_id": 900440501
+  },
+  "90045:90045010": {
+   "choice_id": 900450101
+  },
+  "90045:90045020": {
+   "choice_id": 900450201
+  },
+  "90045:90045030": {
+   "choice_id": 900450301
+  },
+  "90045:90045040": {
+   "choice_id": 900450401
+  },
+  "90045:90045060": {
+   "choice_id": 900450601
+  },
+  "90045:90045070": {
+   "choice_id": 900450701
+  },
+  "90045:90045050": {
+   "answer_code": "<div class=\"mountains\">\n  <h1>Mountains of the World</h1>\n  <ul>\n    <li>Mount Everest</li>\n    <li>Mount McKinley</li>\n    <li>Mount Kilimanjaro</li>\n  </ul>\n</div>\n"
+  },
+  "90046:90046010": {
+   "choice_id": 900460101
+  },
+  "90046:90046020": {
+   "answer_code": "const numList = [2, 4, 6, 8];\nfor (const num of numList) {\n  console.log(num);\n}\n"
+  },
+  "90046:90046030": {
+   "choice_id": 900460301
+  },
+  "90046:90046040": {
+   "answer_code": "for (let i = 1; i < 5; i++) {\n  if (i % 3 == 0) {\n    console.log(i);\n  }\n}\n"
+  },
+  "90046:90046050": {
+   "choice_id": 900460501
+  },
+  "90047:90047010": {
+   "answer_code": "const weather = \"sunny\";\n\nswitch (weather) {\n  case \"sunny\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"cloudy\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"rainy\":\n    console.log(\"Let's stay home\");\n    break;\n}\n"
+  },
+  "90047:90047020": {
+   "answer_code": "const weather = \"sunny\";\n\nswitch (weather) {\n  case \"sunny\":\n  case \"cloudy\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"rainy\":\n    console.log(\"Let's stay home\");\n    break;\n}\n"
+  },
+  "90047:90047030": {
+   "choice_id": 900470301
+  },
+  "90047:90047040": {
+   "answer_code": "for (let i = 1; i <= 10; i++) {\n  switch (i % 3) {\n    case 0:\n      console.log(\"Student \" + i + \" is in Group C\");\n      break;\n    case 1:\n      console.log(\"Student \" + i + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + i + \" is in Group B\");\n      break;\n  }\n}\n"
+  },
+  "90047:90047050": {
+   "choice_id": 900470501
+  },
+  "90048:90048010": {
+   "choice_id": 900480101
+  },
+  "90048:90048030": {
+   "choice_id": 900480301
+  },
+  "90048:90048040": {
+   "choice_id": 900480401
+  },
+  "90048:90048070": {
+   "choice_id": 900480701
+  },
+  "90048:90048020": {
+   "answer_code": "const numList = [2, 4, 6, 8];\nfor (const num of numList) {\n  console.log(num);\n}"
+  },
+  "90048:90048050": {
+   "answer_code": "\nconst weather = \"sunny\";\n\nswitch (weather) {\n  case \"sunny\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"cloudy\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"rainy\":\n    console.log(\"Let's stay home\");\n    break;\n}"
+  },
+  "90048:90048060": {
+   "answer_code": "for (let i = 1; i <= 10; i++) {\n  switch (i % 3) {\n    case 0:\n      console.log(\"Student \" + i + \" is in Group C\");\n      break;\n    case 1:\n      console.log(\"Student \" + i + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + i + \" is in Group B\");\n      break;\n  }\n}\n"
+  },
+  "90049:90049010": {
+   "answer_code": "let num = 0;\nlet count = 0;\n\nwhile (num < 100) {\n  num += 7;\n  count++;\n}\nconsole.log(count);\n"
+  },
+  "90049:90049020": {
+   "choice_id": 900490201
+  },
+  "90049:90049030": {
+   "answer_code": "let year = 2024;\n\nwhile (year <= 2200) {\n  if (year % 4 == 0) {\n    console.log(year + \" is an Olympic year\");\n  }\n  year += 1;\n}\n"
+  },
+  "90049:90049040": {
+   "choice_id": 900490401
+  },
+  "90049:90049050": {
+   "answer_code": "let a = 0;\nlet b = 0;\n\nwhile (a <= 10) {\n  if (a == 5) {\n    a = a + 1;\n    continue;\n  }\n  b = b + 1;\n  a = a + 1;\n}\nconsole.log(\"a: \"+ a +\" times\");\nconsole.log(\"b: \"+ b +\" times\");\n"
+  },
+  "90050:90050010": {
+   "choice_id": 900500101
+  },
+  "90050:90050020": {
+   "choice_id": 900500201
+  },
+  "90050:90050030": {
+   "answer_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\n\nfor (const score of scoreList) {\n  sum = sum + score;\n}\nconsole.log(sum);\n"
+  },
+  "90050:90050040": {
+   "choice_id": 900500401
+  },
+  "90050:90050050": {
+   "answer_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum += score;\n}\nconsole.log(sum / scoreList.length);\n"
+  },
+  "90051:90051020": {
+   "choice_id": 900510201
+  },
+  "90051:90051010": {
+   "answer_code": "let year = 2024;\n\nwhile (year <= 2200) {\n  if (year % 4 == 0) {\n    console.log(year + \" is an Olympic year\");\n  }\n  year += 1;\n}\n"
+  },
+  "90051:90051030": {
+   "answer_code": "let a = 0;\nlet b = 0;\n\nwhile (a <= 10) {\n  if (a == 5) {\n    a = a + 1;\n    continue;\n  }\n  b = b + 1;\n  a = a + 1;\n}\nconsole.log(\"a: \"+ a +\" times\");\nconsole.log(\"b: \"+ b +\" times\");\n"
+  },
+  "90051:90051040": {
+   "answer_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\n\nfor (const score of scoreList) {\n  sum = sum + score;\n}\nconsole.log(sum);\n"
+  },
+  "90051:90051050": {
+   "answer_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum += score;\n}\nconsole.log(sum / scoreList.length);\n"
+  },
+  "90052:90052010": {
+   "choice_id": 900520101
+  },
+  "90052:90052020": {
+   "choice_id": 900520201
+  },
+  "90052:90052030": {
+   "choice_id": 900520301
+  },
+  "90052:90052040": {
+   "choice_id": 900520401
+  },
+  "90052:90052050": {
+   "answer_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nconsole.log(guestList.includes(\"Wilson\"));\n"
+  },
+  "90052:90052060": {
+   "answer_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nguestList.sort();\nconsole.log(guestList);\n"
+  },
+  "90053:90053010": {
+   "choice_id": 900530101
+  },
+  "90053:90053020": {
+   "choice_id": 900530201
+  },
+  "90053:90053030": {
+   "choice_id": 900530301
+  },
+  "90053:90053040": {
+   "choice_id": 900530401
+  },
+  "90053:90053050": {
+   "answer_code": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n\nletterList.pop();\nconsole.log(letterList);\n"
+  },
+  "90053:90053060": {
+   "answer_code": "let colorList = [\"red\", \"blue\", \"yellow\"];\n\ncolorList.unshift(\"green\");\nconsole.log(colorList);\n"
+  },
+  "90054:90054010": {
+   "choice_id": 900540101
+  },
+  "90054:90054020": {
+   "choice_id": 900540201
+  },
+  "90054:90054030": {
+   "choice_id": 900540301
+  },
+  "90054:90054040": {
+   "choice_id": 900540401
+  },
+  "90054:90054050": {
+   "answer_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nconsole.log(guestList.includes(\"Wilson\"));\n"
+  },
+  "90054:90054060": {
+   "answer_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nguestList.sort();\nconsole.log(guestList);\n"
+  },
+  "90054:90054070": {
+   "answer_code": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n\nletterList.pop();\nconsole.log(letterList);\n"
+  },
+  "90054:90054080": {
+   "answer_code": "let colorList = [\"red\", \"blue\", \"yellow\"];\n\ncolorList.unshift(\"green\");\nconsole.log(colorList);\n"
+  },
+  "511001:511001010": {
+   "choice_id": 5110010101
+  },
+  "511001:511001020": {
+   "answer_code": "print(\"Good morning\")\n"
+  },
+  "511001:511001030": {
+   "answer_code": "print(\"programming\")\n"
+  },
+  "511001:511001040": {
+   "answer_code": "print(\"hello\")\n"
+  },
+  "511001:511001050": {
+   "choice_id": 5110010501
+  },
+  "511001:511001060": {
+   "answer_code": "print(\"Hello\")\nprint(\"My name is\")\n#print(\"Rick\")\nprint(\"Cody\")\n"
+  },
+  "511007:511007010": {
+   "choice_id": 5110070101
+  },
+  "511007:511007020": {
+   "answer_code": "num=2\nif num == 1:\n    print(\"It's 1\")\nelif num == 2:\n    print(\"It's 2\")\n"
+  },
+  "511007:511007030": {
+   "answer_code": "score = 82\nif score == 100:\n    print(\"Perfect score\")\nelif score >= 80:\n    print(\"Pass\")\n"
+  },
+  "511007:511007040": {
+   "choice_id": 5110070401
+  },
+  "511007:511007050": {
+   "answer_code": "egg = 5\nif egg == 0:\n    print(\"Out of stock\")\nelif egg <= 3:\n    print(\"Low stock\")\nelse:\n    print(\"In stock\")\n"
+  },
+  "511008:511008020": {
+   "choice_id": 5110080201
+  },
+  "511008:511008040": {
+   "choice_id": 5110080401
+  },
+  "511008:511008060": {
+   "choice_id": 5110080601
+  },
+  "511008:511008010": {
+   "answer_code": "num = 7\nif num == 7:\n    print(\"Win\")\n"
+  },
+  "511008:511008030": {
+   "answer_code": "score = 70\nif score >= 60:\n    print(\"Pass\")\nelse:\n    print(\"Fail\")\n"
+  },
+  "511008:511008050": {
+   "answer_code": "num = 100\nif num == 100:\n    print(\"Win\")\nelse:\n    print(\"No prize\")\n"
+  },
+  "511008:511008070": {
+   "answer_code": "num=4\nif num <= 3:\n    print(\"It's A\")\nelif num >= 6:\n    print(\"It's B\")\nelse:\n    print(\"It's C\")\n"
+  },
+  "30047:30047010": {
+   "answer_code": "const weather = \"sunny\";\n\nswitch (weather) {\n  case \"sunny\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"cloudy\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"rainy\":\n    console.log(\"Let's stay home\");\n    break;\n}\n"
+  },
+  "30047:30047020": {
+   "answer_code": "const weather = \"sunny\";\n\nswitch (weather) {\n  case \"sunny\":\n  case \"cloudy\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"rainy\":\n    console.log(\"Let's stay home\");\n    break;\n}\n"
+  },
+  "30047:30047030": {
+   "choice_id": 300470301
+  },
+  "30047:30047040": {
+   "answer_code": "for (let i = 1; i <= 10; i++) {\n  switch (i % 3) {\n    case 0:\n      console.log(\"Student \" + i + \" is in Group C\");\n      break;\n    case 1:\n      console.log(\"Student \" + i + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + i + \" is in Group B\");\n      break;\n  }\n}\n"
+  },
+  "30047:30047050": {
+   "choice_id": 300470501
+  },
+  "30048:30048010": {
+   "choice_id": 300480101
+  },
+  "30048:30048030": {
+   "choice_id": 300480301
+  },
+  "30048:30048040": {
+   "choice_id": 300480401
+  },
+  "30048:30048070": {
+   "choice_id": 300480701
+  },
+  "30048:30048020": {
+   "answer_code": "const numList = [2, 4, 6, 8];\nfor (const num of numList) {\n  console.log(num);\n}\n"
+  },
+  "30048:30048050": {
+   "answer_code": "const weather = \"sunny\";\n\nswitch (weather) {\n  case \"sunny\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"cloudy\":\n    console.log(\"Let's go shopping\");\n    break;\n  case \"rainy\":\n    console.log(\"Let's stay home\");\n    break;\n}\n"
+  },
+  "30048:30048060": {
+   "answer_code": "for (let i = 1; i <= 10; i++) {\n  switch (i % 3) {\n    case 0:\n      console.log(\"Student \" + i + \" is in Group C\");\n      break;\n    case 1:\n      console.log(\"Student \" + i + \" is in Group A\");\n      break;\n    case 2:\n      console.log(\"Student \" + i + \" is in Group B\");\n      break;\n  }\n}\n"
+  },
+  "30049:30049010": {
+   "answer_code": "let num = 0;\nlet count = 0;\n\nwhile (num < 100) {\n  num += 7;\n  count++;\n}\nconsole.log(count);\n"
+  },
+  "30049:30049020": {
+   "choice_id": 300490201
+  },
+  "30049:30049030": {
+   "answer_code": "let year = 2024;\n\nwhile (year <= 2200) {\n  if (year % 4 == 0) {\n    console.log(year + \" is an Olympic year\");\n  }\n  year += 1;\n}\n"
+  },
+  "30049:30049040": {
+   "choice_id": 300490401
+  },
+  "30049:30049050": {
+   "answer_code": "let a = 0;\nlet b = 0;\n\nwhile (a <= 10) {\n  if (a == 5) {\n    a = a + 1;\n    continue;\n  }\n  b = b + 1;\n  a = a + 1;\n}\nconsole.log(\"a: \"+ a +\" times\");\nconsole.log(\"b: \"+ b +\" times\");\n"
+  },
+  "30050:30050010": {
+   "choice_id": 300500101
+  },
+  "30050:30050020": {
+   "choice_id": 300500201
+  },
+  "30050:30050030": {
+   "answer_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\n\nfor (const score of scoreList) {\n  sum = sum + score;\n}\nconsole.log(sum);\n"
+  },
+  "30050:30050040": {
+   "choice_id": 300500401
+  },
+  "30050:30050050": {
+   "answer_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum += score;\n}\nconsole.log(sum / scoreList.length);\n"
+  },
+  "30051:30051020": {
+   "choice_id": 300510201
+  },
+  "30051:30051010": {
+   "answer_code": "let year = 2024;\n\nwhile (year <= 2200) {\n  if (year % 4 == 0) {\n    console.log(year + \" is an Olympic year\");\n  }\n  year += 1;\n}\n"
+  },
+  "30051:30051030": {
+   "answer_code": "let a = 0;\nlet b = 0;\n\nwhile (a <= 10) {\n  if (a == 5) {\n    a = a + 1;\n    continue;\n  }\n  b = b + 1;\n  a = a + 1;\n}\nconsole.log(\"a: \"+ a +\" times\");\nconsole.log(\"b: \"+ b +\" times\");\n"
+  },
+  "30051:30051040": {
+   "answer_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\n\nfor (const score of scoreList) {\n  sum = sum + score;\n}\nconsole.log(sum);\n"
+  },
+  "30051:30051050": {
+   "answer_code": "const scoreList = [40, 55, 67, 52, 120];\nlet sum = 0;\nfor (const score of scoreList) {\n  sum += score;\n}\nconsole.log(sum / scoreList.length);\n"
+  },
+  "30052:30052010": {
+   "choice_id": 300520101
+  },
+  "30052:30052020": {
+   "choice_id": 300520201
+  },
+  "30052:30052030": {
+   "choice_id": 300520301
+  },
+  "30052:30052040": {
+   "choice_id": 300520401
+  },
+  "30052:30052050": {
+   "answer_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nconsole.log(guestList.includes(\"Wilson\"));\n"
+  },
+  "30052:30052060": {
+   "answer_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nguestList.sort();\nconsole.log(guestList);\n"
+  },
+  "30053:30053010": {
+   "choice_id": 300530101
+  },
+  "30053:30053020": {
+   "choice_id": 300530201
+  },
+  "30053:30053030": {
+   "choice_id": 300530301
+  },
+  "30053:30053040": {
+   "choice_id": 300530401
+  },
+  "30053:30053050": {
+   "answer_code": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n\nletterList.pop();\nconsole.log(letterList);\n"
+  },
+  "30053:30053060": {
+   "answer_code": "let colorList = [\"red\", \"blue\", \"yellow\"];\n\ncolorList.unshift(\"green\");\nconsole.log(colorList);\n"
+  },
+  "30054:30054010": {
+   "choice_id": 300540101
+  },
+  "30054:30054020": {
+   "choice_id": 300540201
+  },
+  "30054:30054030": {
+   "choice_id": 300540301
+  },
+  "30054:30054040": {
+   "choice_id": 300540401
+  },
+  "30054:30054050": {
+   "answer_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nconsole.log(guestList.includes(\"Wilson\"));\n"
+  },
+  "30054:30054060": {
+   "answer_code": "let guestList = [\"Johnson\", \"Smith\", \"Brown\", \"Davis\", \"Wilson\"];\n\nguestList.sort();\nconsole.log(guestList);\n"
+  },
+  "30054:30054070": {
+   "answer_code": "let letterList = [\"p\", \"r\", \"o\", \"g\", \"r\", \"a\", \"m\", \"y\"];\n\nletterList.pop();\nconsole.log(letterList);\n"
+  },
+  "30054:30054080": {
+   "answer_code": "let colorList = [\"red\", \"blue\", \"yellow\"];\n\ncolorList.unshift(\"green\");\nconsole.log(colorList);\n"
+  }
+ },
+ "unhandled": {}
+}
